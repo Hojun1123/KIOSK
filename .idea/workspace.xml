@@ -3,10 +3,80 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdc9b239-f0b9-48f1-b6c9-93b50fed1d5b" name="Changes" comment="brunch_1 push">
+      <change afterPath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/ChoiceDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/SetOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtfile/coffee.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtfile/latte.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtfile/smoothie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txtfile/tea.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-04-29__1_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-04-29__1_37__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/미트볼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/베지.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/불고기.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/비엠티.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/스테이크.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/에그마요.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/참치.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/치킨.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/치킨.데리야끼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/햄치즈.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/ClassControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/ClassControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Manageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Manageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Option.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Source.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Topping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Vegetable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceTopping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceVegetable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Pay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Request.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/Title.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfile/menu.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfile/myList.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfile/source.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfile/topping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfile/user.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/txtfile/vegetable.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +107,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kkkhh\eclipse-workspace\untitled" />
@@ -67,6 +130,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JarApplication">
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -81,11 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -107,6 +177,8 @@
       <workItem from="1651207884491" duration="38000" />
       <workItem from="1651207936732" duration="56000" />
       <workItem from="1651208005704" duration="761000" />
+      <workItem from="1651751869781" duration="43000" />
+      <workItem from="1651751985555" duration="534000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -143,10 +215,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="brunch_1 push" />
-    <option name="LAST_COMMIT_MESSAGE" value="brunch_1 push" />
+    <MESSAGE value="콘솔 내 불필요한 부분 제거 및&#10;GUI 메뉴 선택까지" />
+    <option name="LAST_COMMIT_MESSAGE" value="콘솔 내 불필요한 부분 제거 및&#10;GUI 메뉴 선택까지" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1651752523616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.9.1920.1040@0.0.1920.1040" timestamp="1651752523616" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

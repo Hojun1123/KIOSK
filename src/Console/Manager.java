@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Manager <T extends Manageable> extends MyList {
+public class Manager <T extends Manageable>  {
     ArrayList<T> mList = new ArrayList<>();
 
     Scanner openFile(String filename) {
@@ -29,18 +29,6 @@ public class Manager <T extends Manageable> extends MyList {
         }
     }
 
-    void add(T t){
-        mList.add(t);
-    }
-
-
-    public T find(String kwd) {
-        for (T t : mList) {
-            if (t.matches(kwd))
-                return t;
-        }
-        return null;
-    }
 
     public ArrayList<T> getmList() {
         return mList;

@@ -1,107 +1,116 @@
 package GUI;
 
-import Console.*;
 import Console.Menu;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
-import java.util.Arrays;
 
-// 메뉴 선택
 public class ChoiceMenu extends SwingManager implements SwingManageable {
-    User user;
-    Order order;
     ArrayList<JButton> menuList = new ArrayList<>();
-    JButton b = new JButton("돌아가기");
-    JLabel label = new JLabel("메뉴선택", JLabel.CENTER);
-    Color c=new Color(8,161,64);
+    String menu;
+    JButton[] buttons = new JButton[3];
+    Color c = new Color(53, 39, 35);
+    int listIdx;
 
-    ChoiceMenu(JFrame f, ClassControl data, Manageable user, Order order) {
-        super(f, data);
-        this.user = (User) user;
-        this.order = order;
-
+    public ChoiceMenu(JFrame f, String menu, int idx) {
+        super(f);
+        data.setMenuList(menu);
+        this.menu = menu;
+        listIdx = idx;
         create();
         setPos();
         addAction();
-
-
     }
 
     @Override
     public void create() {
         createButton();
-        label.setFont(new Font("맑은 고딕", Font.BOLD, 24));
     }
 
     @Override
     public void setPos() {
         setButtonPos();
-        b.setBounds(40, 500, 300, 50);
-        label.setBounds(10, 10, 100, 50);
     }
 
     @Override
     public void addAction() {
         addButtonAction();
-        add(label);
-        add(b);
-        b.addActionListener(this);
     }
 
     void createButton() {
+
         for (Menu m : data.getMenuList().getmList()) {
             String str = m.getName();
             JButton b = new JButton(str);
-            if (str.length() > 5)
-                splitText(b,str);
-            b.setFont(new Font("맑은 고딕", Font.BOLD, 16));
+
+            b.setFont(new Font("맑은 고딕", Font.BOLD, 36));
             b.setBackground(c);
             b.setForeground(Color.white);
             menuList.add(b);
         }
-        b.setFont(new Font("맑은 고딕", Font.BOLD, 24));
-        b.setBackground(c);
-        b.setForeground(Color.white);
-    }
 
-    void splitText(JButton b, String str){
-        int index = str.indexOf(".");
-        String subStr1 = str.substring(0,index);
-        String subStr2 = str.substring(index+1,str.length());
-        b.setText("<html>" + "<center>" +
-                subStr1 + "<br>" + subStr2 +
-                "</center>" + "</html>");
-    }
 
-    void setButtonPos() {
-        int idx = 0;
-        int xpos = 120;
-        int ypos = 100;
-        for(JButton m : menuList){
-            if(idx == 3) { idx = 0; ypos += 100; }
-            m.setBounds(25 + (idx * xpos),10 + (ypos),100,80);
-            idx++;
+        String[] text = {"이전", "다음", "처음으로"};
+        for (int i = 0; i < buttons.length; ++i) {
+            buttons[i] = new JButton(text[i]);
+            buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 24));
+            buttons[i].setBackground(c);
+            buttons[i].setForeground(Color.white);
         }
     }
 
+    void setButtonPos() {
+        int cnt = 0;
+        int len = Math.min(listIdx + 2, menuList.size());
+        for(int i= listIdx; i<len;++i){
+            menuList.get(i).setBounds(40, 50+(cnt*180), 300, 150);
+            ++cnt;
+        }
+
+        for (int i = 0; i < 2; ++i)
+            buttons[i].setBounds(10 + (i * 190), 430, 170, 50);
+        buttons[2].setBounds(40, 500, 300, 50);
+    }
+
     void addButtonAction() {
-        for (JButton m : menuList) {
-            add(m);
-            m.addActionListener(this);
+        int len = Math.min(listIdx + 2, menuList.size());
+        for (int i = listIdx; i < len; ++i) {
+            add(menuList.get(i));
+        }
+
+        for(int i=0;i<buttons.length;++i) {
+            if (listIdx == 0 && i == 0) {
+            }
+            else if (listIdx + 2 >= menuList.size() && i == 1) {
+            }
+            else {
+                add(buttons[i]);
+                buttons[i].addActionListener(this);
+            }
+        }
+
+        for(JButton b :menuList){
+            add(b);
+            b.addActionListener(this);
         }
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == b) {
-            changerPanel(new OrderMain(frame, data, user,order));
+        if (e.getSource() == buttons[0]) {
+            changerPanel(new ChoiceMenu(frame, menu, listIdx - 2));
+        } else if (e.getSource() == buttons[1]) {
+                changerPanel(new ChoiceMenu(frame, menu, listIdx + 2));
+        } else if(e.getSource() == buttons[2]){
+            changerPanel(new OrderMain(frame));
         } else {
             int idx = menuList.indexOf(e.getSource());
             Menu menu = data.getMenuList().getList(idx);
-            changerPanel(new ChoiceTopping(frame, data, user,order, menu));
+            setMenuName(menu);
+            menu.print();
+            changerPanel(new SetOption(frame));
         }
     }
 }
