@@ -57,12 +57,12 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             JButton b = new JButton(str);
             if (str.length() > 5)
                 splitText(b,str);
-            b.setFont(new Font("맑은 고딕", Font.BOLD, 16));
+            b.setFont(new Font("Arial", Font.BOLD, 16));
             b.setBackground(c);
             b.setForeground(Color.white);
             menuList.add(b);
         }
-        b.setFont(new Font("맑은 고딕", Font.BOLD, 24));
+        b.setFont(new Font("Arial", Font.BOLD, 24));
         b.setBackground(c);
         b.setForeground(Color.white);
     }

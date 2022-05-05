@@ -31,7 +31,6 @@ public class Main {
 
 	void runMenu() {
 		int num = 0;
-		System.out.println("test테스트!!1");
 		System.out.println("[1] 메뉴 데이터 수정 [2] 토핑 데이터 수정 [3] 소스 데이터 수정 [4] 야채 데이터 수정 [기타] 종료 >> ");
 
 		num = scan.nextInt();
