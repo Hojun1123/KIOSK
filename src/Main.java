@@ -19,7 +19,6 @@ public class Main {
 		frame.setTitle("키오스크");
 		frame.setSize(400, 600);
 		frame.setLocationRelativeTo(null);
-		//OrderMain클래스
 		JPanel title = new OrderMain(frame);
 		frame.add(title);
 	}

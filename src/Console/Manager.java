@@ -29,9 +29,6 @@ public class Manager <T extends Manageable>  {
         }
     }
 
-
-    public ArrayList<T> getmList() {
-        return mList;
-    }
     public T getList(int idx) { return mList.get(idx); }
+    public int getSize() { return mList.size(); }
 }

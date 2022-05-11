@@ -32,6 +32,9 @@ public class SwingManager extends JPanel implements ActionListener {
         MenuInfo = menu;
     }
 
+    final String getMenuName() {
+        return MenuInfo.getName();
+    }
     @Override
     public void actionPerformed(ActionEvent e) {
 
