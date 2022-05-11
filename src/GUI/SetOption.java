@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 public class SetOption extends SwingManager implements SwingManageable{
-    JButton[] buttons = new JButton[2];
+    JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
 
 
@@ -32,21 +32,20 @@ public class SetOption extends SwingManager implements SwingManageable{
     }
 
     void createButton() {
-        String[] text = {"HOT","ICE"};
-        int[] size = {36,36};
-        for(int i=0;i < buttons.length;++i){
+        String[] text = {"HOT","ICE","이전"};
+        for(int i=0; i < buttons.length; ++i){
             buttons[i] = new JButton(text[i]);
             buttons[i].setBackground(c);
             buttons[i].setForeground(Color.white);
-            buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
+            buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 36));
         }
     }
 
     void setButtonPos() {
-        int[] size = {180, 180};
-        for(int i=0;i < buttons.length;++i) {
-            buttons[i].setBounds(40, 50+(i*200), 300, size[i]);
+        for(int i=0;i <2;++i) {
+            buttons[i].setBounds(40, 50+(i*200), 300, 180);
         }
+        buttons[2].setBounds(40, 450, 300, 50);
     }
 
     void addButtonAction() {
@@ -58,12 +57,17 @@ public class SetOption extends SwingManager implements SwingManageable{
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        //HOT , ICE , 이전
         if (e.getSource() == buttons[0]) {
-            JOptionPane.showMessageDialog(null, "관리자 모드로 실행합니다",
-                    "Message", JOptionPane.INFORMATION_MESSAGE);
-        } else if (e.getSource() == buttons[1]) {
-            JOptionPane.showMessageDialog(null, "관리자 모드로 실행합니다",
-                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            setIce(false);
+            changerPanel(new SetOption2(frame));
+        }
+        else if(e.getSource() == buttons[1]){
+            setIce(true);
+            changerPanel(new SetOption2(frame));
+        }
+        else{
+            changerPanel(new ChoiceMenu(frame, "coffee",0));
         }
     }
 }

@@ -72,21 +72,19 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         b.addActionListener(this);
 
         for (int i = 0; i < buttons.length; ++i) {
-            if (listIdx == 0 && i == 0 ||
-            listIdx == data.getMenuList().getSize()-1 && i == 1) {
+            //처음이거나 맨마지막이면, 이전버튼 add안함
+            if (listIdx == 0 && i == 0 || listIdx == data.getMenuList().getSize()-1 && i == 1) {
             }
             else {
                 add(buttons[i]);
                 buttons[i].addActionListener(this);
             }
         }
-        add(b);
-        b.addActionListener(this);
-
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        //이전, 다음, 처음으로, 메뉴선택
         if (e.getSource() == buttons[0]) {
             changerPanel(new ChoiceMenu(frame, menuCode, listIdx - 1));
         } else if (e.getSource() == buttons[1]) {
@@ -95,8 +93,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new OrderMain(frame));
         } else {
             setMenuName(m);
-            JOptionPane.showMessageDialog(null, getMenuName(),
-                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            //JOptionPane.showMessageDialog(null, getMenuName(), "Message", JOptionPane.INFORMATION_MESSAGE);
             changerPanel(new SetOption(frame));
         }
     }
