@@ -22,13 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3915e3de-2f17-4c3a-b141-604604e3f224" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-04-29__1_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-04-29__1_37__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" afterDir="false" />
+    <list default="true" id="3915e3de-2f17-4c3a-b141-604604e3f224" name="변경" comment="5.11_1">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29_오전_12_43_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/ClassControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/ClassControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +59,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -105,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="untitled" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
@@ -127,7 +119,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdc9b239-f0b9-48f1-b6c9-93b50fed1d5b" name="Changes" comment="" />
+      <changelist id="3915e3de-2f17-4c3a-b141-604604e3f224" name="변경" comment="5.11_1" />
       <created>1651158560112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -144,6 +136,7 @@
       <workItem from="1651208005704" duration="761000" />
       <workItem from="1651751869781" duration="43000" />
       <workItem from="1651751985555" duration="534000" />
+      <workItem from="1652245756866" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -152,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651164646366</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="5.11_1">
+      <created>1652245645998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652245645998</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,13 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="brunch_1 push" />
     <MESSAGE value="콘솔 내 불필요한 부분 제거 및&#10;GUI 메뉴 선택까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="콘솔 내 불필요한 부분 제거 및&#10;GUI 메뉴 선택까지" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1651752523616">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.9.1920.1040@0.0.1920.1040" timestamp="1651752523616" />
+    <MESSAGE value="5.11_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.11_1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -12,6 +12,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     String menuCode;
     JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
+    Menu m;
     int listIdx;
 
     public ChoiceMenu(JFrame f, String menu, int idx) {
@@ -19,6 +20,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         data.setMenuList(menu);
         this.menuCode = menu;
         listIdx = idx;
+        m = data.getMenuList().getList(listIdx);
         create();
         setPos();
         addAction();
@@ -40,7 +42,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     }
 
     void createButton() {
-        Menu m = data.getMenuList().getList(listIdx);
+
         b = new JButton(m.getName());
         b.setFont(new Font("맑은 고딕", Font.BOLD, 36));
         b.setBackground(c);
@@ -78,8 +80,6 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
                 buttons[i].addActionListener(this);
             }
         }
-
-
         add(b);
         b.addActionListener(this);
 
@@ -94,7 +94,10 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         } else if(e.getSource() == buttons[2]){
             changerPanel(new OrderMain(frame));
         } else {
-            System.out.println("test");
+            setMenuName(m);
+            JOptionPane.showMessageDialog(null, getMenuName(),
+                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            changerPanel(new SetOption(frame));
         }
     }
 }
