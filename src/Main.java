@@ -10,7 +10,6 @@ public class Main {
 		Main m = new Main();
 		m.run();
 	}
-
 	void run() {
 		menu();
 	}
