@@ -31,4 +31,5 @@ public class ClassControl {
     public Manager<Menu> getMenuList() {
         return menuList;
     }
+
 }

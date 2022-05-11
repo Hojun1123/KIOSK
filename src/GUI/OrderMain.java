@@ -6,13 +6,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 public class OrderMain extends SwingManager implements SwingManageable {
-    //상속
     JButton b = new JButton("주문하기");
     JLabel[] labels = new JLabel[2];
     Color c = new Color(53, 39, 35);
 
     public OrderMain(JFrame f) {
-        //super > 부모클래스를 의미
         super(f);
         create();
         setPos();
@@ -43,7 +41,7 @@ public class OrderMain extends SwingManager implements SwingManageable {
 
     }
     void createLabel() {
-        String[] text = {"어서오세요","Voisk 카페입니다"};
+        String[] text = {"어서오세요", "Voisk 카페입니다"};
 
         for (int i = 0; i < labels.length; ++i) {
             labels[i] = new JLabel(text[i], JLabel.CENTER);

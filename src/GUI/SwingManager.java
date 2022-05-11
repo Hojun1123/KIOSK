@@ -32,6 +32,20 @@ public class SwingManager extends JPanel implements ActionListener {
         MenuInfo = menu;
     }
 
+    final String getMenuName() {
+        return MenuInfo.getName();
+    }
+
+    void setIce(boolean a){
+        //true면 ice, false면 hot
+        //System.out.println("ice테스트 " + a);
+    }
+    void setShot(boolean a){
+
+    }
+    void setSyrup(boolean a){
+
+    }
     @Override
     public void actionPerformed(ActionEvent e) {
 
