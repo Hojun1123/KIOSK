@@ -22,61 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdc9b239-f0b9-48f1-b6c9-93b50fed1d5b" name="Changes" comment="brunch_1 push">
-      <change afterPath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/ChoiceDrink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/SetOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/txtfile/coffee.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/txtfile/latte.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/txtfile/smoothie.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/txtfile/tea.txt" afterDir="false" />
+    <list default="true" id="3915e3de-2f17-4c3a-b141-604604e3f224" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-04-29__1_37__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2022-04-29__1_37__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022-04-29__12_43__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/미트볼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/베지.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/불고기.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/비엠티.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/스테이크.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/에그마요.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/참치.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/치킨.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/치킨.데리야끼.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/햄치즈.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Admin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/ClassControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/ClassControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Manageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Manageable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/MyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Option.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Option.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Order.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Source.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Topping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/UserManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Vegetable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMyList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceTopping.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceVegetable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Pay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Register.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Request.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManageable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Title.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfile/menu.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfile/myList.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfile/source.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfile/topping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfile/user.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/txtfile/vegetable.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hojun" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,6 +69,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
@@ -130,17 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JarApplication">
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -149,6 +101,19 @@
     <configuration default="true" type="Java Scratch">
       <shortenClasspath name="NONE" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="untitled" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,7 +180,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="brunch_1 push" />
