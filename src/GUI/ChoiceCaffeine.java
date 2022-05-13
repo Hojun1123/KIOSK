@@ -1,5 +1,8 @@
 package GUI;
 
+import Console.Order;
+import Console.OrderList;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -58,6 +61,7 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == buttons[0]) {
+            OrderList.od.getMenu("coffee");
             changerPanel(new ChoiceMenu(frame, "coffee",0));
         } else if (e.getSource() == buttons[1]) {
             changerPanel(new ChoiceDrink(frame));

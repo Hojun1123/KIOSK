@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
+import static Console.OrderList.od;
+
 public class SetOption3 extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
@@ -59,11 +61,11 @@ public class SetOption3 extends SwingManager implements SwingManageable{
     public void actionPerformed(ActionEvent e) {
         //이전
         if (e.getSource() == buttons[0]) {
-            setSyrup(true);
+            od.getSyrup(true);
             changerPanel(new ChoiceQuantity(frame));
         }
         else if(e.getSource() == buttons[1]){
-            setSyrup(false);
+            od.getSyrup(false);
             changerPanel(new ChoiceQuantity(frame));
         }
         else{

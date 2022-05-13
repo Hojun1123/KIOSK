@@ -23,15 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="618de15a-2d5d-4e85-958a-61ca9ddac82c" name="Changes" comment="병합">
-      <change afterPath="$PROJECT_DIR$/src/Console/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/SetOption2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GUI/SetOption3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Console/OrderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Option.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,16 +64,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kkkhh\eclipse-workspace\untitled" />
@@ -127,7 +126,6 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3915e3de-2f17-4c3a-b141-604604e3f224" name="변경" comment="5.11_1" />
       <created>1651158560112</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -145,6 +143,9 @@
       <workItem from="1651751869781" duration="43000" />
       <workItem from="1651751985555" duration="534000" />
       <workItem from="1652245756866" duration="1401000" />
+      <workItem from="1652284834550" duration="31000" />
+      <workItem from="1652361465791" duration="375000" />
+      <workItem from="1652442761684" duration="11962000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>

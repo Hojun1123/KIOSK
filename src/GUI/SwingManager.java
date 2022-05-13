@@ -2,12 +2,12 @@ package GUI;
 
 import Console.*;
 import Console.Menu;
+import Console.Order;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
 
 public class SwingManager extends JPanel implements ActionListener {
     JFrame frame;
@@ -36,16 +36,7 @@ public class SwingManager extends JPanel implements ActionListener {
         return MenuInfo.getName();
     }
 
-    void setIce(boolean a){
-        //true면 ice, false면 hot
-        //System.out.println("ice테스트 " + a);
-    }
-    void setShot(boolean a){
 
-    }
-    void setSyrup(boolean a){
-
-    }
     @Override
     public void actionPerformed(ActionEvent e) {
 

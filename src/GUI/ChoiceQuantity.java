@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
+import static Console.OrderList.od;
+
 public class ChoiceQuantity extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[4];
     JLabel[] labels = new JLabel[1];
@@ -78,6 +80,7 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         //확인
         else if(e.getSource() == buttons[2]){
             //quantity값도 넘겨줘야함
+            od.getQuantity(quantity);
             changerPanel(new OrderConfirm(frame));
         }
         //이전

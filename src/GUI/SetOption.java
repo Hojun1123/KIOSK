@@ -4,6 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
+import static Console.OrderList.od;
+
 public class SetOption extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
@@ -59,11 +61,11 @@ public class SetOption extends SwingManager implements SwingManageable{
     public void actionPerformed(ActionEvent e) {
         //HOT , ICE , 이전
         if (e.getSource() == buttons[0]) {
-            setIce(false);
+            od.getIce(false);
             changerPanel(new SetOption2(frame));
         }
         else if(e.getSource() == buttons[1]){
-            setIce(true);
+            od.getIce(true);
             changerPanel(new SetOption2(frame));
         }
         else{
