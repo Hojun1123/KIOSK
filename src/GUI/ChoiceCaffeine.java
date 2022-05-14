@@ -12,7 +12,7 @@ import static Console.OrderList.od;
 
 public class ChoiceCaffeine extends SwingManager implements SwingManageable {
     JButton[] buttons = new JButton[3];
-    Color c = new Color(53, 39, 35);
+    Color c = new Color(72, 50, 42);
     Color c2 = new Color(58,114,138);
 
     public ChoiceCaffeine(JFrame f) {

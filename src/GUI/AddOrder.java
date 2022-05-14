@@ -8,7 +8,7 @@ public class AddOrder extends SwingManager implements SwingManageable {
     String menuCode;
     JButton[] buttons = new JButton[2];
     JLabel label;
-    Color c = new Color(53, 39, 35);
+    Color c = new Color(72, 50, 42);
     public AddOrder(JFrame f) {
         super(f);
         create();
@@ -33,7 +33,7 @@ public class AddOrder extends SwingManager implements SwingManageable {
     }
 
     void createLabel(){
-        String text = "<html>더 주문<br/>하시겠습니까?<html>";
+        String text = "<html><center>더 주문</center>하시겠습니까?<html>";
         label = new JLabel(text, SwingConstants.CENTER);
         label.setBackground(c);
         label.setForeground(Color.white);

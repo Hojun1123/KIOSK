@@ -14,7 +14,7 @@ public class Payment extends SwingManager implements SwingManageable {
     JLabel label = null;
     JLabel insideLabel = null;
     JScrollPane scrollPane = null;
-    Color c = new Color(53, 39, 35);
+    Color c = new Color(72, 50, 42);
     Color c2 = new Color(245, 245, 220);
     public Payment(JFrame f) {
         super(f);
@@ -106,6 +106,7 @@ public class Payment extends SwingManager implements SwingManageable {
         else if (e.getSource() == buttons[1]) {
         }
         else{
+            changerPanel(new OrderMain(frame));
         }
     }
 }

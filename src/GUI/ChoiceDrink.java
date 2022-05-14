@@ -7,6 +7,7 @@ import java.awt.event.ActionEvent;
 public class ChoiceDrink extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
+    Color c2 = new Color(58,114,138);
 
     public ChoiceDrink(JFrame f) {
         super(f);
@@ -35,10 +36,14 @@ public class ChoiceDrink extends SwingManager implements SwingManageable{
         int[] size = {36,36,36};
         for(int i=0;i < buttons.length;++i){
             buttons[i] = new JButton(text[i]);
-            buttons[i].setBackground(c);
+
             buttons[i].setForeground(Color.white);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
         }
+        buttons[0].setBackground(c);
+        buttons[1].setBackground(c2);
+        buttons[2].setBackground(c);
+
     }
 
     void setButtonPos() {

@@ -41,7 +41,9 @@ public class Order{
     }
     @Override
     public String toString(){
-        return "<html>&nbsp;"+menu.getName()+"<br/>&nbsp;"+toIce()+toShot()+toSyrup()+"<br/>&nbsp;"+quantity+"잔</html>";
+        return "<html><center>"+menu.getName()+"</center><center>"
+                +toIce()+toShot()+toSyrup()+"</center>" +
+                "<center>"+quantity+"잔</center></html>";
     }
 
     public int price(){

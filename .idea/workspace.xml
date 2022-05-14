@@ -25,12 +25,13 @@
     <list default="true" id="618de15a-2d5d-4e85-958a-61ca9ddac82c" name="Changes" comment="totalprice bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/OrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/OrderList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/AddOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AddOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceDrink.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption3.java" afterDir="false" />
     </list>
