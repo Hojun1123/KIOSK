@@ -10,6 +10,8 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[4];
     JLabel[] labels = new JLabel[1];
     Color c = new Color(53, 39, 35);
+    Color c2 = new Color(72, 50, 42);
+    Color c3 = new Color(224,204,204);
     int quantity = 1;
 
     public ChoiceQuantity(JFrame f) {
@@ -40,12 +42,15 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         String[] text = {"-1","+1","확인","이전"};
         for(int i=0; i < buttons.length; ++i){
             buttons[i] = new JButton(text[i]);
-            buttons[i].setBackground(c);
-            buttons[i].setForeground(Color.white);
-            if(i<2)
-                buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 28));
-            else
-                buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 36));
+            if(i<2) {
+                buttons[i].setForeground(Color.black);
+                buttons[i].setBackground(c3);
+            }
+            else {
+                buttons[i].setForeground(Color.white);
+                buttons[i].setBackground(c2);
+            }
+            buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 24));
         }
     }
 
@@ -53,8 +58,8 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         buttons[0].setBounds(40,100,80,80);
         buttons[1].setBounds(260,100,80,80);
         //buttons[2].setBounds(140,100,100,100);
-        buttons[2].setBounds(40,350,300,80);
-        buttons[3].setBounds(40, 440, 300, 80);
+        buttons[2].setBounds(40,400,300,40);
+        buttons[3].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {
@@ -92,10 +97,10 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
     void createLabel() {
         String text = quantity+"개";
         labels[0] = new JLabel(text, JLabel.CENTER);
-        //labels[0].setBackground(Color.black);
-        //labels[0].setForeground(Color.white);
-        labels[0].setFont(new Font("맑은 고딕", Font.BOLD, 28));
-        this.setVisible(true);
+        labels[0].setBackground(c2);
+        labels[0].setForeground(Color.white);
+        labels[0].setFont(new Font("맑은 고딕", Font.BOLD, 36));
+        labels[0].setOpaque(true);
     }
     void setLabelPos() {
         labels[0].setBounds(140,100,100,100);
