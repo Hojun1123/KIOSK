@@ -1,3 +1,4 @@
+import Console.OrderList;
 import GUI.OrderMain;
 
 import javax.swing.*;
@@ -5,7 +6,6 @@ import javax.swing.*;
 
 public class Main {
 	JFrame frame = new JFrame();
-
 	public static void main(String[] args) {
 		Main m = new Main();
 		m.run();

@@ -2,7 +2,7 @@ package Console;
 
 public class Order{
     //	ice/hot
-    private String menu = "";
+    private Menu menu = null;
     private boolean ice = false;
     private boolean shot = false;
     private boolean syrup = false;
@@ -12,7 +12,7 @@ public class Order{
 
     }
 
-    public void getMenu(String a){
+    public void getMenu(Menu a){
         menu = a;
     }
     public void getIce(boolean a){
@@ -39,6 +39,13 @@ public class Order{
     }
     @Override
     public String toString(){
-        return "<html>"+menu+"<br/>옵션 : "+toIce()+toShot()+toSyrup()+"<br/>"+quantity+"잔</html>";
+        return "<html>&nbsp;"+menu.getName()+"<br/>&nbsp;"+toIce()+toShot()+toSyrup()+"<br/>&nbsp;"+quantity+"잔</html>";
+    }
+
+    public int price(){
+        return menu.getPrice()*quantity;
+    }
+    public String menu(){
+        return menu.getName();
     }
 }
