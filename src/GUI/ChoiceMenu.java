@@ -15,6 +15,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     String menuCode;
     JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
+    Color c3 = new Color(224,204,204);
     Menu m;
     int listIdx;
 
@@ -55,18 +56,23 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         for (int i = 0; i < buttons.length; ++i) {
             buttons[i] = new JButton(text[i]);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 24));
-            buttons[i].setBackground(c);
-            buttons[i].setForeground(Color.white);
         }
+        buttons[0].setForeground(Color.black);
+        buttons[1].setForeground(Color.black);
+        buttons[2].setForeground(Color.white);
+
+        buttons[0].setBackground(c3);
+        buttons[1].setBackground(c3);
+        buttons[2].setBackground(c);
     }
 
     void setButtonPos() {
 
-        b.setBounds(40,100,300,300);
+        b.setBounds(40,40,300,300);
 
         for (int i = 0; i < 2; ++i)
-            buttons[i].setBounds(10 + (i * 190), 430, 170, 50);
-        buttons[2].setBounds(40, 500, 300, 50);
+            buttons[i].setBounds(40 + (i * 160), 400, 140, 40);
+        buttons[2].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {

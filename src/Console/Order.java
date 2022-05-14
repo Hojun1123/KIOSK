@@ -8,6 +8,7 @@ public class Order{
     private boolean syrup = false;
     private int quantity = 1;
 
+    private boolean caffeine = false;
     public void print() {
 
     }
@@ -27,6 +28,7 @@ public class Order{
     public void getQuantity(int a){
         quantity = a;
     }
+    public void setCaffeine(boolean s){caffeine = s;}
 
     private String toIce(){
         return ice ? "ICE" : "HOT";
@@ -48,4 +50,5 @@ public class Order{
     public String menu(){
         return menu.getName();
     }
+    public boolean isCaffeine(){return caffeine;}
 }

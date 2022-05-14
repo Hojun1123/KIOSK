@@ -14,7 +14,7 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
     String menuCode;
     JButton[] buttons = new JButton[3];
     JLabel label;
-    Color c = new Color(53, 39, 35);
+    Color c = new Color(72,50, 42);
     Color c2 = new Color(245, 245, 220);
     public OrderConfirm(JFrame f) {
         super(f);
@@ -48,7 +48,7 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
         label.setOpaque(true);
     }
     void setLabel(){
-        label.setBounds(40,100,300,200);
+        label.setBounds(20,40,340,320);
     }
     void addLabel(){
         add(label);
@@ -65,8 +65,8 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
 
     void setButtonPos() {
         for (int i = 0; i < 2; ++i)
-            buttons[i].setBounds(10 + (i * 190), 430, 170, 50);
-        buttons[2].setBounds(40, 500, 300, 50);
+            buttons[i].setBounds(40 + (i * 160), 400, 140, 40);
+        buttons[2].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {
