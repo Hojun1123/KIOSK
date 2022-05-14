@@ -7,6 +7,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
+import static Console.OrderList.initializeOrder;
+import static Console.OrderList.od;
+
 public class ChoiceCaffeine extends SwingManager implements SwingManageable {
     JButton[] buttons = new JButton[3];
     Color c = new Color(53, 39, 35);
@@ -60,8 +63,8 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        initializeOrder();
         if (e.getSource() == buttons[0]) {
-            OrderList.od.getMenu("coffee");
             changerPanel(new ChoiceMenu(frame, "coffee",0));
         } else if (e.getSource() == buttons[1]) {
             changerPanel(new ChoiceDrink(frame));

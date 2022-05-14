@@ -22,18 +22,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="618de15a-2d5d-4e85-958a-61ca9ddac82c" name="Changes" comment="병합">
-      <change afterPath="$PROJECT_DIR$/src/Console/OrderList.java" afterDir="false" />
+    <list default="true" id="618de15a-2d5d-4e85-958a-61ca9ddac82c" name="Changes" comment="주문결과페이지">
+      <change afterPath="$PROJECT_DIR$/src/GUI/AddOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GUI/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Console/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/OrderList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/OrderList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +147,7 @@
       <workItem from="1652284834550" duration="31000" />
       <workItem from="1652361465791" duration="375000" />
       <workItem from="1652442761684" duration="11962000" />
+      <workItem from="1652488642274" duration="16082000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -202,7 +204,8 @@
     <MESSAGE value="콘솔 내 불필요한 부분 제거 및&#10;GUI 메뉴 선택까지" />
     <MESSAGE value="5.11_1" />
     <MESSAGE value="병합" />
-    <option name="LAST_COMMIT_MESSAGE" value="병합" />
+    <MESSAGE value="주문결과페이지" />
+    <option name="LAST_COMMIT_MESSAGE" value="주문결과페이지" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

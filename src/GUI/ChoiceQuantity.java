@@ -10,7 +10,7 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[4];
     JLabel[] labels = new JLabel[1];
     Color c = new Color(53, 39, 35);
-    static int quantity = 1;
+    int quantity = 1;
 
     public ChoiceQuantity(JFrame f) {
         super(f);

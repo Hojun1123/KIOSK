@@ -1,11 +1,14 @@
 package GUI;
 
 import Console.Menu;
+import Console.Order;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.util.ArrayList;
+
+import static Console.OrderList.od;
 
 public class ChoiceMenu extends SwingManager implements SwingManageable {
     JButton b = null;
@@ -93,6 +96,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new OrderMain(frame));
         } else {
             setMenuName(m);
+            od.getMenu(m);
             //JOptionPane.showMessageDialog(null, getMenuName(), "Message", JOptionPane.INFORMATION_MESSAGE);
             changerPanel(new SetOption(frame));
         }
