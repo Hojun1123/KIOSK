@@ -19,4 +19,11 @@ public class OrderList {
         }
         return text + "</html>";
     }
+    public static int totalPrice(){
+        int total = 0;
+        for(int i=0; i<orderList.size();++i){
+            total += orderList.get(i).price();
+        }
+        return total;
+    }
 }

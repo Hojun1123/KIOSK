@@ -59,7 +59,7 @@ public class Payment extends SwingManager implements SwingManageable {
     }
 
     void createLabel(){
-        String text = "총 "+ od.price();
+        String text = "총 "+ OrderList.totalPrice();
         label = new JLabel(text, SwingConstants.CENTER);
         label.setFont(new Font("맑은 고딕", Font.BOLD, 24));
         label.setForeground(Color.red);
