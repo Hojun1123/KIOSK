@@ -14,7 +14,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     JButton b = null;
     String menuCode;
     JButton[] buttons = new JButton[3];
-    Color c = new Color(53, 39, 35);
+    Color c = new Color(72, 50, 42);
     Color c3 = new Color(224,204,204);
     Menu m;
     int listIdx;

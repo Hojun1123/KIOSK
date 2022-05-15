@@ -15,7 +15,7 @@ public class OrderList {
     public static String toStringOrderList(){
         StringBuilder text = new StringBuilder("<html>");
         for(int i=0; i<orderList.size();++i){
-            text.append(orderList.get(i).menu()).append("&nbsp;").append(orderList.get(i).price()).append("<br/>");
+            text.append(orderList.get(i).menu()).append("&nbsp;").append(orderList.get(i).price()).append("원").append("<br/>");
         }
         return text + "</html>";
     }

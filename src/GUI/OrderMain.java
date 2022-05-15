@@ -8,7 +8,7 @@ import java.awt.event.ActionEvent;
 public class OrderMain extends SwingManager implements SwingManageable {
     JButton b = new JButton("주문하기");
     JLabel[] labels = new JLabel[2];
-    Color c = new Color(53, 39, 35);
+    Color c = new Color(72, 50, 42);
 
     public OrderMain(JFrame f) {
         super(f);

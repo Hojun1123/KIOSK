@@ -34,7 +34,7 @@ public class SetOption2 extends SwingManager implements SwingManageable{
     }
 
     void createButton() {
-        String[] text = {"샷추가","<html>샷추가<br/>안함</html>","이전"};
+        String[] text = {"샷 추가","<html>샷 추가<br/><center>안함</center></html>","이전"};
         int[] size = {36, 36, 24};
         for(int i=0; i < buttons.length; ++i){
             buttons[i] = new JButton(text[i]);
