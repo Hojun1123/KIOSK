@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="cdc9b239-f0b9-48f1-b6c9-93b50fed1d5b" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="618de15a-2d5d-4e85-958a-61ca9ddac82c" name="Changes" comment="totalprice bug fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KIOSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KIOSK.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderMain.java" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+<<<<<<< Updated upstream
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -42,6 +50,35 @@
   }
 }]]></component>
   <component name="RunManager">
+=======
+    "last_opened_file_path": "C:/Users/82102/Downloads/JLAYER~1/JLayer1.0.1/jl1.0.1.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkkhh\eclipse-workspace\untitled" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GUI" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> Stashed changes
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
@@ -49,9 +86,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+=======
+    <configuration default="true" type="JarApplication">
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Java Scratch">
+      <shortenClasspath name="NONE" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Main" />
+>>>>>>> Stashed changes
       </list>
     </recent_temporary>
   </component>
@@ -64,7 +119,63 @@
       <option name="presentableId" value="Default" />
       <updated>1651158560112</updated>
       <workItem from="1651158565744" duration="1656000" />
+<<<<<<< Updated upstream
     </task>
+=======
+      <workItem from="1651163972907" duration="1333000" />
+      <workItem from="1651206143654" duration="523000" />
+      <workItem from="1651206682280" duration="228000" />
+      <workItem from="1651206922121" duration="379000" />
+      <workItem from="1651207317089" duration="242000" />
+      <workItem from="1651207574104" duration="296000" />
+      <workItem from="1651207884491" duration="38000" />
+      <workItem from="1651207936732" duration="56000" />
+      <workItem from="1651208005704" duration="761000" />
+      <workItem from="1651751869781" duration="43000" />
+      <workItem from="1651751985555" duration="534000" />
+      <workItem from="1652245756866" duration="1401000" />
+      <workItem from="1652284834550" duration="31000" />
+      <workItem from="1652361465791" duration="375000" />
+      <workItem from="1652442761684" duration="11962000" />
+      <workItem from="1652488642274" duration="29619000" />
+    </task>
+    <task id="LOCAL-00001" summary="brunch_1 push">
+      <created>1651164646365</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651164646366</updated>
+    </task>
+    <task id="LOCAL-00002" summary="5.11_1">
+      <created>1652245645998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652245645998</updated>
+    </task>
+    <task id="LOCAL-00003" summary="병합">
+      <created>1652268519671</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652268519671</updated>
+    </task>
+    <task id="LOCAL-00004" summary="카페인, 결제까지(디자인, 디테일 수정 필)&#10;디카페인은 미완성">
+      <created>1652524116850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652524116850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="totalprice bug fix">
+      <created>1652524838370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652524838370</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+>>>>>>> Stashed changes
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,10 +186,43 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< Updated upstream
             <State />
+=======
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+>>>>>>> Stashed changes
           </value>
         </entry>
       </map>
     </option>
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="brunch_1 push" />
+    <MESSAGE value="콘솔 내 불필요한 부분 제거 및&#10;GUI 메뉴 선택까지" />
+    <MESSAGE value="5.11_1" />
+    <MESSAGE value="병합" />
+    <MESSAGE value="주문결과페이지" />
+    <MESSAGE value="카페인, 결제까지(디자인, 디테일 수정 필)&#10;디카페인은 미완성" />
+    <MESSAGE value="totalprice bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="totalprice bug fix" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+>>>>>>> Stashed changes
 </project>
