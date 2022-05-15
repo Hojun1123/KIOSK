@@ -10,6 +10,9 @@ public class OrderMain extends SwingManager implements SwingManageable {
     JLabel[] labels = new JLabel[2];
     Color c = new Color(72, 50, 42);
 
+    String filename = "C:\\Users\\82102\\Documents\\GitHub\\KIOSK\\output.mp3";
+    MusicPlayer playMP3 = new MusicPlayer(filename);
+
     public OrderMain(JFrame f) {
         super(f);
         create();
@@ -72,6 +75,7 @@ public class OrderMain extends SwingManager implements SwingManageable {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == b) {
             changerPanel(new ChoiceCaffeine(frame));
+            playMP3.play();
         }
     }
 }

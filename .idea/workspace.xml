@@ -22,13 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="git 수정">
+    <list default="true" id="e4dead85-b3bd-4911-a3a9-dd60e20e9205" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Console/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/AddOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/AddOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +59,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/82102/Downloads/JLAYER~1/JLayer1.0.1/jl1.0.1.jar",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.build"
@@ -112,6 +108,19 @@
     <configuration default="true" type="Java Scratch">
       <shortenClasspath name="NONE" />
       <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="KIOSK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="KIOSK" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
