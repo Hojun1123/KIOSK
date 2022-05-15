@@ -47,7 +47,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
 
     void createButton() {
 
-        b = new JButton(m.getName());
+        b = new JButton(m.memu());
         b.setFont(new Font("맑은 고딕", Font.BOLD, 36));
         b.setBackground(c);
         b.setForeground(Color.white);

@@ -90,7 +90,12 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         }
         //이전
         else if(e.getSource() == buttons[3]){
-            changerPanel(new SetOption3(frame));
+            if(!od.isCaffeine()){
+                changerPanel(new SetOption(frame));
+            }
+            else{
+                changerPanel(new SetOption3(frame));
+            }
         }
     }
 
