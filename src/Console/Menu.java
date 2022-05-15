@@ -27,4 +27,7 @@ public class Menu implements Manageable{
 		return name;
 	}
 	public int getPrice(){return price;}
+	public String memu(){
+		return "<html>"+name+"<br/><center>"+price+"원</center></html>";
+	}
 }

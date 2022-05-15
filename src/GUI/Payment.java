@@ -69,7 +69,7 @@ public class Payment extends SwingManager implements SwingManageable {
         insideLabel.setForeground(Color.black);
     }
     void setLabel(){
-        label.setBounds(40,300,300,200);
+        label.setBounds(40,250,300,200);
     }
     void addLabel(){
         add(label);
@@ -86,8 +86,8 @@ public class Payment extends SwingManager implements SwingManageable {
 
     void setButtonPos() {
         for (int i = 0; i < 2; ++i)
-            buttons[i].setBounds(10 + (i * 190), 430, 170, 50);
-        buttons[2].setBounds(40, 500, 300, 50);
+            buttons[i].setBounds(40 + (i * 160), 400, 140, 40);
+        buttons[2].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {

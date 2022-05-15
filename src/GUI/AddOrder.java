@@ -58,7 +58,7 @@ public class AddOrder extends SwingManager implements SwingManageable {
 
     void setButtonPos() {
         for (int i = 0; i < buttons.length; ++i)
-            buttons[i].setBounds(10 + (i * 190), 430, 170, 50);
+            buttons[i].setBounds(40 + (i * 160), 400, 140, 40);
     }
 
     void addButtonAction() {
