@@ -22,18 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="gui수정 가격추가">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceCaffeine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderConfirm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/OrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SetOption3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/SwingManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="코드 수정" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +187,7 @@
       <workItem from="1652584324374" duration="2000" />
       <workItem from="1652584340286" duration="42000" />
       <workItem from="1652634503666" duration="493000" />
-      <workItem from="1652678943759" duration="2620000" />
+      <workItem from="1652678943759" duration="2799000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -249,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652678976645</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="코드 수정">
+      <created>1652681697091</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652681697091</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +284,8 @@
     <MESSAGE value="totalprice bug fix" />
     <MESSAGE value="design_edit1" />
     <MESSAGE value="gui수정 가격추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="gui수정 가격추가" />
+    <MESSAGE value="코드 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="코드 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
