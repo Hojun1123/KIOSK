@@ -14,8 +14,7 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
     String menuCode;
     JButton[] buttons = new JButton[3];
     JLabel label;
-    Color c = new Color(72,50, 42);
-    Color c2 = new Color(245, 245, 220);
+
     public OrderConfirm(JFrame f) {
         super(f);
         create();
@@ -42,7 +41,7 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
     void createLabel(){
         String text = od.toString();
         label = new JLabel(text, SwingConstants.CENTER);
-        label.setBackground(c2);
+        label.setBackground(new Color(245,245,220));
         label.setForeground(Color.black);
         label.setFont(new Font("맑은 고딕", Font.BOLD, 24));
         label.setOpaque(true);
@@ -57,7 +56,7 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
         String[] text = {"예", "아니오", "처음으로"};
         for(int i=0; i < buttons.length; ++i){
             buttons[i] = new JButton(text[i]);
-            buttons[i].setBackground(c);
+            buttons[i].setBackground(getBrown());
             buttons[i].setForeground(Color.white);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 24));
         }

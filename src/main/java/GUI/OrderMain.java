@@ -10,7 +10,7 @@ import static Speak.Converter.tts;
 public class OrderMain extends SwingManager implements SwingManageable {
     JButton b = new JButton("주문하기");
     JLabel[] labels = new JLabel[2];
-    Color c = new Color(72, 50, 42);
+    Color c = getBrown();
 
     public OrderMain(JFrame f) {
         super(f);

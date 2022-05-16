@@ -1,17 +1,18 @@
 package GUI;
 
+import Console.Order;
+import Console.OrderList;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.initializeOrder;
 import static Console.OrderList.od;
-import static Speak.Converter.tts;
 
 public class ChoiceCaffeine extends SwingManager implements SwingManageable {
     JButton[] buttons = new JButton[3];
-    Color c = new Color(72, 50, 42);
-    Color c2 = new Color(58,114,138);
+
 
     public ChoiceCaffeine(JFrame f) {
         super(f);
@@ -39,16 +40,15 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
         String[] text = {"커피","논 커피", "이전"};
         String msg = "";
         int[] size = {36,36,24};
+        Color[] colors = {getBrown(),getBlue(),getBrown()};
         for(int i=0;i < buttons.length;++i){
             msg += text[i]+ ", ";
             buttons[i] = new JButton(text[i]);
             buttons[i].setForeground(Color.white);
+            buttons[i].setBackground(colors[i]);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
         }
         tts(msg);
-        buttons[0].setBackground(c);
-        buttons[1].setBackground(c2);
-        buttons[2].setBackground(c);
     }
 
     void setButtonPos() {
