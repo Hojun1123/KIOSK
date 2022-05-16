@@ -1,14 +1,12 @@
 package GUI;
 
-import Console.Order;
-import Console.OrderList;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.initializeOrder;
 import static Console.OrderList.od;
+import static Speak.Converter.tts;
 
 public class ChoiceCaffeine extends SwingManager implements SwingManageable {
     JButton[] buttons = new JButton[3];
@@ -39,8 +37,10 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
 
     void createButton() {
         String[] text = {"커피","논 커피", "이전"};
+        //tts(Arrays.stream(text).collect(Collectors.joining()));
         int[] size = {36,36,24};
         for(int i=0;i < buttons.length;++i){
+            tts(text[i]);
             buttons[i] = new JButton(text[i]);
             buttons[i].setForeground(Color.white);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));

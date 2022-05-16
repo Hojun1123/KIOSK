@@ -1,3 +1,4 @@
+package Speak;
 // Imports the Google Cloud client library
 import com.google.cloud.texttospeech.v1.*;
 import com.google.protobuf.ByteString;
@@ -7,7 +8,7 @@ import java.io.OutputStream;
 
 /**
  * Google Cloud TextToSpeech API sample application. Example usage: mvn package exec:java
- * -Dexec.mainClass='com.example.texttospeech.QuickstartSample'
+ * -Dexec.mainClass='com.example.texttospeech.Speak.QuickstartSample'
  */
 public class QuickstartSample {
     /**

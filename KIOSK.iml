@@ -76,5 +76,6 @@
     <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-speech-v1p1beta1:0.86.15" level="project" />
     <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-speech-v1beta1:0.86.15" level="project" />
     <orderEntry type="library" name="Maven: com.google.api.grpc:proto-google-cloud-speech-v1:2.2.15" level="project" />
+    <orderEntry type="library" name="jlayer-1.0.1" level="project" />
   </component>
 </module>
