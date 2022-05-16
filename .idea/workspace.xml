@@ -22,9 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="일단 여기까지...">
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="일단 여기까지..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +207,7 @@
       <workItem from="1652688360208" duration="661000" />
       <workItem from="1652689040279" duration="979000" />
       <workItem from="1652692427685" duration="2555000" />
-      <workItem from="1652699101851" duration="313000" />
+      <workItem from="1652699101851" duration="740000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -288,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652699328535</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="일단 여기까지...">
+      <created>1652699587837</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652699587837</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
