@@ -8,8 +8,7 @@ import static Console.OrderList.od;
 
 public class SetOption extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[3];
-    Color c = new Color(72, 50, 42);
-    Color c2 = new Color(58, 114, 138);
+
 
     public SetOption(JFrame f) {
         super(f);
@@ -36,14 +35,13 @@ public class SetOption extends SwingManager implements SwingManageable{
     void createButton() {
         String[] text = {"HOT","ICE","이전"};
         int[] size = {36,36,24};
+        Color[] backgrounds = { getBrown(), getBlue(),getBrown()};
         for(int i=0; i < buttons.length; ++i){
             buttons[i] = new JButton(text[i]);
             buttons[i].setForeground(Color.white);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
+            buttons[i].setBackground(backgrounds[i]);
         }
-        buttons[0].setBackground(c);
-        buttons[1].setBackground(c2);
-        buttons[2].setBackground(c);
     }
 
     void setButtonPos() {

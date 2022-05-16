@@ -5,9 +5,8 @@ import javax.swing.*;
 
 public class Main {
 	JFrame frame = new JFrame();
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args){
 		Main m = new Main();
-		QuickstartSample.synthesizeText("Voisk");
 		m.run();
 	}
 	void run() {
@@ -15,11 +14,12 @@ public class Main {
 	}
 
 	void menu() {
+		JPanel title = new OrderMain(frame);
+		frame.add(title);
 		frame.setTitle("키오스크");
 		frame.setSize(400, 600);
 		frame.setLocationRelativeTo(null);
-		JPanel title = new OrderMain(frame);
-		frame.add(title);
+
 	}
 
 

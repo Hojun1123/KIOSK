@@ -13,6 +13,10 @@ public class SwingManager extends JPanel implements ActionListener {
     JFrame frame;
     ClassControl data = new ClassControl();
     Menu MenuInfo = null;
+    final Color brown = new Color(72,50,42);
+    final Color blue = new Color(58,114,138);
+    final Color vanilla = new Color(224,204,204);
+
     public SwingManager(JFrame f) {
         frame = f;
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -32,8 +36,16 @@ public class SwingManager extends JPanel implements ActionListener {
         MenuInfo = menu;
     }
 
-    final String getMenuName() {
-        return MenuInfo.getName();
+    public final Color getBrown() {
+        return brown;
+    }
+
+    public final Color getBlue() {
+        return blue;
+    }
+
+    public final Color getVanilla() {
+        return vanilla;
     }
 
 
