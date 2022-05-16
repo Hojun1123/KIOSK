@@ -1,4 +1,3 @@
-import Console.OrderList;
 import GUI.OrderMain;
 
 import javax.swing.*;
@@ -16,7 +15,7 @@ public class Main {
 	}
 
 	void menu() {
-		frame.setTitle("ÌÇ§Ïò§Ïä§ÌÅ¨");
+		frame.setTitle("≈∞ø¿Ω∫≈©");
 		frame.setSize(400, 600);
 		frame.setLocationRelativeTo(null);
 		JPanel title = new OrderMain(frame);

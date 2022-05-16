@@ -22,14 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="gui수정 가격추가">
-      <change beforePath="$PROJECT_DIR$/src/main/java/QuickstartSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QuickstartSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/playVoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playVoice.java" afterDir="false" />
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="git 수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/output.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/playVoice.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="tts_test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,15 +80,17 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220516_0000&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;라이브러리&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkkhh\IdeaProjects\KIOSK" />
+      <recent name="C:\Users\kkkhh\IdeaProjects\KIOSK\src\main\java" />
       <recent name="C:\Users\kkkhh\eclipse-workspace\untitled" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -102,6 +110,9 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\kkkhh\IdeaProjects\voisk.json" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="KIOSK" />
       <method v="2">
@@ -143,7 +154,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -193,6 +204,9 @@
       <workItem from="1652584340286" duration="42000" />
       <workItem from="1652634503666" duration="493000" />
       <workItem from="1652681210929" duration="293000" />
+      <workItem from="1652687479295" duration="836000" />
+      <workItem from="1652688360208" duration="661000" />
+      <workItem from="1652689040279" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
