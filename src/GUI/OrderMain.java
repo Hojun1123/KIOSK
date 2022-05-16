@@ -9,7 +9,7 @@ public class OrderMain extends SwingManager implements SwingManageable {
     JButton b = new JButton("주문하기");
     JLabel[] labels = new JLabel[2];
     Color c = new Color(72, 50, 42);
-    String filename = "C:\\Users\\82102\\Documents\\GitHub\\KIOSK\\output.mp3";
+    String filename = "output.mp3";
     MyMusicPlayer playMusic = new MyMusicPlayer(filename);
 
     public OrderMain(JFrame f) {
