@@ -1,5 +1,4 @@
-package main.java;// Imports the Google Cloud client library
-
+// Imports the Google Cloud client library
 import com.google.cloud.texttospeech.v1.*;
 import com.google.protobuf.ByteString;
 
