@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="코드 수정" />
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/ClassControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/ClassControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Console/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Console/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GUI/ChoiceMenu.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kkkhh\eclipse-workspace\untitled" />
@@ -188,6 +193,9 @@
       <workItem from="1652584340286" duration="42000" />
       <workItem from="1652634503666" duration="493000" />
       <workItem from="1652678943759" duration="2799000" />
+      <workItem from="1652682133654" duration="321000" />
+      <workItem from="1652684861189" duration="169000" />
+      <workItem from="1652685899018" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -245,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652681697091</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="코드 수정">
+      <created>1652682255604</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652682255604</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,7 +277,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="origin/hangil" />
                       </list>
                     </value>
                   </entry>

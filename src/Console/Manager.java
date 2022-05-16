@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Manager <T extends Manageable>  {
+public class Manager <T extends Manageable> {
     ArrayList<T> mList = new ArrayList<>();
 
     Scanner openFile(String filename) {
@@ -20,15 +20,28 @@ public class Manager <T extends Manageable>  {
         return filein;
     }
 
-    public void readAll(String filename, Factory<T> fac){
+    public void readAll(String filename, Factory<T> fac) {
         Scanner filein = openFile(filename);
-        while(filein.hasNext()){
+        while (filein.hasNext()) {
             T t = fac.create();
             t.read(filein);
             mList.add(t);
         }
     }
 
-    public T getList(int idx) { return mList.get(idx); }
-    public int getSize() { return mList.size(); }
+    public int findIdx(String str) {
+        for(int i=0;i<getSize();++i){
+            if(mList.get(i).matches(str))
+                return i;
+        }
+        return -1;
+    }
+
+    public T getList(int idx) {
+        return mList.get(idx);
+    }
+
+    public int getSize() {
+        return mList.size();
+    }
 }
