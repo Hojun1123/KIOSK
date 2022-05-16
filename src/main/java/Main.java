@@ -15,7 +15,7 @@ public class Main {
 	}
 
 	void menu() {
-		frame.setTitle("≈∞ø¿Ω∫≈©");
+		frame.setTitle("ÌÇ§Ïò§Ïä§ÌÅ¨");
 		frame.setSize(400, 600);
 		frame.setLocationRelativeTo(null);
 		JPanel title = new OrderMain(frame);
