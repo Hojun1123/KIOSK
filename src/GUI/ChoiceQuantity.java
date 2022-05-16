@@ -8,10 +8,9 @@ import static Console.OrderList.od;
 
 public class ChoiceQuantity extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[4];
-    JLabel[] labels = new JLabel[1];
-    Color c = new Color(53, 39, 35);
-    Color c2 = new Color(72, 50, 42);
-    Color c3 = new Color(224,204,204);
+    JLabel label;
+
+
     int quantity = 1;
 
     public ChoiceQuantity(JFrame f) {
@@ -39,31 +38,29 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
     }
 
     void createButton() {
-        String[] text = {"-1","+1","확인","이전"};
-        for(int i=0; i < buttons.length; ++i){
+        String[] text = {"-1", "+1", "확인", "이전"};
+        Color[] foreGrounds = {Color.black, Color.black, Color.white, Color.white};
+        Color[] backGrounds = {getVanilla(), getVanilla(), getBrown(), getBrown()};
+        for (int i = 0; i < buttons.length; ++i) {
             buttons[i] = new JButton(text[i]);
-            if(i<2) {
-                buttons[i].setForeground(Color.black);
-                buttons[i].setBackground(c3);
-            }
-            else {
-                buttons[i].setForeground(Color.white);
-                buttons[i].setBackground(c2);
-            }
+            buttons[i].setForeground(foreGrounds[i]);
+            buttons[i].setBackground(backGrounds[i]);
+
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 24));
         }
     }
 
     void setButtonPos() {
-        buttons[0].setBounds(40,100,80,80);
-        buttons[1].setBounds(260,100,80,80);
-        //buttons[2].setBounds(140,100,100,100);
-        buttons[2].setBounds(40,400,300,40);
-        buttons[3].setBounds(40, 450, 300, 40);
+        for(int i=0;i<2;++i){
+            buttons[i].setBounds(40 + (i*220),100,80,80);
+        }
+        for(int i=2;i<4;++i){
+            buttons[i].setBounds(40,350 + (i-2)*100,300,80);
+        }
     }
 
     void addButtonAction() {
-        add(labels[0]);
+        add(label);
         for(JButton b : buttons) {
             add(b);
             b.addActionListener(this);
@@ -101,16 +98,16 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
 
     void createLabel() {
         String text = quantity+"개";
-        labels[0] = new JLabel(text, JLabel.CENTER);
-        labels[0].setBackground(c2);
-        labels[0].setForeground(Color.white);
-        labels[0].setFont(new Font("맑은 고딕", Font.BOLD, 36));
-        labels[0].setOpaque(true);
+        label = new JLabel(text, JLabel.CENTER);
+        label.setBackground(getBrown());
+        label.setForeground(Color.white);
+        label.setFont(new Font("맑은 고딕", Font.BOLD, 36));
+        label.setOpaque(true);
     }
     void setLabelPos() {
-        labels[0].setBounds(140,100,100,100);
+        label.setBounds(140,100,100,100);
     }
     void updateLabelValue(){
-        labels[0].setText(quantity+"개");
+        label.setText(quantity+"개");
     }
 }

@@ -14,8 +14,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     JButton b = null;
     String menuCode;
     JButton[] buttons = new JButton[3];
-    Color c = new Color(72, 50, 42);
-    Color c3 = new Color(224,204,204);
+
     Menu m;
     int listIdx;
 
@@ -46,24 +45,21 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     }
 
     void createButton() {
-
         b = new JButton(m.memu());
         b.setFont(new Font("맑은 고딕", Font.BOLD, 36));
-        b.setBackground(c);
+        b.setBackground(getBrown());
         b.setForeground(Color.white);
 
         String[] text = {"이전", "다음", "처음으로"};
+        Color[] foreGround = {Color.black,  Color.black, Color.white};
+        Color[] backGround = { getVanilla(),getVanilla(),getBrown()};
         for (int i = 0; i < buttons.length; ++i) {
             buttons[i] = new JButton(text[i]);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 24));
+            buttons[i].setForeground(foreGround[i]);
+            buttons[i].setBackground(backGround[i]);
         }
-        buttons[0].setForeground(Color.black);
-        buttons[1].setForeground(Color.black);
-        buttons[2].setForeground(Color.white);
 
-        buttons[0].setBackground(c3);
-        buttons[1].setBackground(c3);
-        buttons[2].setBackground(c);
     }
 
     void setButtonPos() {
@@ -71,8 +67,8 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         b.setBounds(40,40,300,300);
 
         for (int i = 0; i < 2; ++i)
-            buttons[i].setBounds(40 + (i * 160), 400, 140, 40);
-        buttons[2].setBounds(40, 450, 300, 40);
+            buttons[i].setBounds(40 + (i * 160), 355, 140, 80);
+        buttons[2].setBounds(40, 450, 300, 80);
     }
 
     void addButtonAction() {
@@ -103,7 +99,6 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         } else {
             setMenuName(m);
             od.getMenu(m);
-            //JOptionPane.showMessageDialog(null, getMenuName(), "Message", JOptionPane.INFORMATION_MESSAGE);
             changerPanel(new SetOption(frame));
         }
     }
