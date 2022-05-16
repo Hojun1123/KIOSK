@@ -22,9 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="음성MP3생성+재생">
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" afterDir="false" />
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="일단 여기까지...">
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +209,7 @@
       <workItem from="1652688360208" duration="661000" />
       <workItem from="1652689040279" duration="979000" />
       <workItem from="1652692427685" duration="2555000" />
+      <workItem from="1652699101851" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -274,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652694896832</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="일단 여기까지...">
+      <created>1652699129030</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652699129030</updated>
+    </task>
+    <task id="LOCAL-00011" summary="일단 여기까지...">
+      <created>1652699328535</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652699328535</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +330,8 @@
     <MESSAGE value="음성MP3생성" />
     <MESSAGE value="음성MP3생성 + xml" />
     <MESSAGE value="음성MP3생성+재생" />
-    <option name="LAST_COMMIT_MESSAGE" value="음성MP3생성+재생" />
+    <MESSAGE value="일단 여기까지..." />
+    <option name="LAST_COMMIT_MESSAGE" value="일단 여기까지..." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

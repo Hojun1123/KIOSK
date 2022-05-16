@@ -37,14 +37,15 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
 
     void createButton() {
         String[] text = {"커피","논 커피", "이전"};
-        //tts(Arrays.stream(text).collect(Collectors.joining()));
+        String msg = "";
         int[] size = {36,36,24};
         for(int i=0;i < buttons.length;++i){
-            tts(text[i]);
+            msg += text[i]+ ", ";
             buttons[i] = new JButton(text[i]);
             buttons[i].setForeground(Color.white);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
         }
+        tts(msg);
         buttons[0].setBackground(c);
         buttons[1].setBackground(c2);
         buttons[2].setBackground(c);
