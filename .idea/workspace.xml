@@ -22,7 +22,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="일단 여기까지..." />
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="일단 여기까지_end...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/output.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Console/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Console/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -207,7 +226,7 @@
       <workItem from="1652688360208" duration="661000" />
       <workItem from="1652689040279" duration="979000" />
       <workItem from="1652692427685" duration="2555000" />
-      <workItem from="1652699101851" duration="740000" />
+      <workItem from="1652699101851" duration="1714000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -293,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652699587837</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="일단 여기까지...">
+      <created>1652699929787</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652699929787</updated>
+    </task>
+    <task id="LOCAL-00014" summary="일단 여기까지_end...">
+      <created>1652700017731</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652700017731</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +369,8 @@
     <MESSAGE value="음성MP3생성 + xml" />
     <MESSAGE value="음성MP3생성+재생" />
     <MESSAGE value="일단 여기까지..." />
-    <option name="LAST_COMMIT_MESSAGE" value="일단 여기까지..." />
+    <MESSAGE value="일단 여기까지_end..." />
+    <option name="LAST_COMMIT_MESSAGE" value="일단 여기까지_end..." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

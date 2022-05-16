@@ -47,7 +47,7 @@ public class SetOption2 extends SwingManager implements SwingManageable{
         for(int i=0;i <2;++i) {
             buttons[i].setBounds(40, 50+(i*200), 300, 180);
         }
-        buttons[2].setBounds(40, 450, 300, 80);
+        buttons[2].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {

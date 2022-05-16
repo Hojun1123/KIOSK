@@ -1,12 +1,10 @@
 package GUI;
 
 import Console.Menu;
-import Console.Order;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.util.ArrayList;
 
 import static Console.OrderList.od;
 
@@ -90,8 +88,8 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         b.setBounds(40,100,300,250);
 
         for (int i = 0; i < 2; ++i)
-            buttons[i].setBounds(40 + (i * 160), 355, 140, 80);
-        buttons[2].setBounds(40, 450, 300, 80);
+            buttons[i].setBounds(40 + (i * 160), 400, 140, 40);
+        buttons[2].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {
