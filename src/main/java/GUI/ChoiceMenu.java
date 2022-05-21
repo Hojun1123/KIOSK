@@ -7,6 +7,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.od;
+import static Speak.Converter.tts;
 
 public class ChoiceMenu extends SwingManager implements SwingManageable {
     JButton b = null;
@@ -128,14 +129,21 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             }
             else {
                 m = data.getMenuList().getList(idx);
+                tts(m.getName());
                 setMenuName(m);
                 od.getMenu(m);
                 changerPanel(new SetOption(frame));
             }
         } else {
+            tts(m.getName());
             setMenuName(m);
             od.getMenu(m);
-            changerPanel(new SetOption(frame));
+            if (menuCode == "smoothie") {
+                od.getIce(true);
+                changerPanel(new ChoiceQuantity(frame));
+            } else {
+                changerPanel(new SetOption(frame));
+            }
         }
     }
 }

@@ -47,7 +47,7 @@ public class QuickstartSampleSTT {
                     .splitCall(responseObserver);
 
             RecognitionConfig recognitionConfig = RecognitionConfig.newBuilder()
-                    .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16).setLanguageCode("ko-KR")// í•œêµ­ì–´ ì„¤ì •
+                    .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16).setLanguageCode("ko-KR")// ÇÑ±¹¾î ¼³Á¤
                     .setSampleRateHertz(16000).build();
             StreamingRecognitionConfig streamingRecognitionConfig = StreamingRecognitionConfig.newBuilder()
                     .setConfig(recognitionConfig).build();
@@ -81,7 +81,7 @@ public class QuickstartSampleSTT {
                 long estimatedTime = System.currentTimeMillis() - startTime;
                 byte[] data = new byte[6400];
                 audio.read(data);
-                if (estimatedTime > 2000) { // 60 seconds ìŠ¤íŠ¸ë¦¬ë° í•˜ëŠ” ì‹œê°„ì„¤ì •(ê¸°ë³¸ 60ì´ˆ)
+                if (estimatedTime > 2000) { // 60 seconds ½ºÆ®¸®¹Ö ÇÏ´Â ½Ã°£¼³Á¤(±âº» 60ÃÊ)
                     System.out.println("Stop speaking.");
                     targetDataLine.stop();
                     targetDataLine.close();
@@ -93,7 +93,7 @@ public class QuickstartSampleSTT {
         } catch (Exception e) {
             System.out.println(e);
         }
-        responseObserver.onComplete(); //ì™„ë£Œ ì´ë²¤íŠ¸ ë°œìƒ
+        responseObserver.onComplete(); //¿Ï·á ÀÌº¥Æ® ¹ß»ı
     }
 
 }
