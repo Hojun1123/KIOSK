@@ -48,6 +48,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         addText();
     }
 
+
     void createText(){
         textField = new JTextField(20);
     }
@@ -60,6 +61,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     void addText(){
         add(textField);
     }
+
 
     void createButton() {
         b = new JButton(m.memu());
@@ -119,7 +121,10 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new ChoiceMenu(frame, menuCode, listIdx + 1));
         } else if (e.getSource() == buttons[2]) {
             changerPanel(new OrderMain(frame));
-        } else if (e.getSource() == submit) {
+        }
+        else if (e.getSource() == submit) {
+            // STT로 출력하던 alternative.getTranscript()를 리턴해서 해당 문자열로 초기화
+            // String str = 음성인식.onComplete();
             String str = textField.getText();
             int idx = data.getMenuList().findIdx(str);
             if(idx == -1){
@@ -134,10 +139,12 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
                 od.getMenu(m);
                 changerPanel(new SetOption(frame));
             }
-        } else {
+        }
+        else {
             tts(m.getName());
             setMenuName(m);
             od.getMenu(m);
+            // 스무디 메뉴면 ICE로 고정시키고 바로 개수 항목으로 넘어가게
             if (menuCode == "smoothie") {
                 od.getIce(true);
                 changerPanel(new ChoiceQuantity(frame));
