@@ -22,11 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="GUI/ChoiceMenu 클래스에 110라인 부분 참고바랍니당">
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/output.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/QuickstartSampleSTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/QuickstartSampleSTT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QuickstartSampleSTT$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/QuickstartSampleSTT.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +132,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickstartSampleSTT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickstartSampleSTT" />
+    <configuration name="Speak.QuickstartSampleSTT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Speak.QuickstartSampleSTT" />
       <module name="KIOSK" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,13 +182,13 @@
     </configuration>
     <list>
       <item itemvalue="Maven.이름이 지정되지 않았습니다" />
-      <item itemvalue="애플리케이션.QuickstartSampleSTT" />
+      <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
       <item itemvalue="애플리케이션.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.QuickstartSampleSTT" />
+        <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main" />
@@ -238,7 +242,9 @@
       <workItem from="1653120571105" duration="5000" />
       <workItem from="1653120687680" duration="156000" />
       <workItem from="1653120862840" duration="788000" />
-      <workItem from="1653121763743" duration="2244000" />
+      <workItem from="1653121763743" duration="2340000" />
+      <workItem from="1653125950324" duration="734000" />
+      <workItem from="1653126701647" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -345,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653122460054</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다">
+      <created>1653124117689</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653124117689</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,18 +404,8 @@
     <MESSAGE value="일단 여기까지_end..." />
     <MESSAGE value="작업중" />
     <MESSAGE value="GUI/ChoiceMenu 클래스에 110라인 부분 참고바랍니당" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI/ChoiceMenu 클래스에 110라인 부분 참고바랍니당" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/QuickstartSampleSTT.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

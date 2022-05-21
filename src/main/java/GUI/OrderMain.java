@@ -44,7 +44,7 @@ public class OrderMain extends SwingManager implements SwingManageable {
     void createLabel() {
         String[] text = {"어서오세요", "Voisk 카페입니다"};
         //s1
-        tts(text[0]+", "+text[1] + ", 주문하시겠습니까?"); // <--
+        tts(text[0]+", "+text[1] + ", 주문하시겠습니까?");
         for (int i = 0; i < labels.length; ++i) {
             labels[i] = new JLabel(text[i], JLabel.CENTER);
             labels[i].setFont(new Font("맑은 고딕", Font.BOLD, 36));

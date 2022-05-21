@@ -1,6 +1,7 @@
 package GUI;
 
 import Console.Menu;
+import Speak.QuickstartSampleSTT;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +12,6 @@ import static Speak.Converter.tts;
 
 public class ChoiceMenu extends SwingManager implements SwingManageable {
     JButton b = null;
-    JTextField textField = null;
     JButton submit = null;
     String menuCode;
     JButton[] buttons = new JButton[3];
@@ -33,34 +33,18 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     @Override
     public void create() {
         createButton();
-        createText();
     }
 
     @Override
     public void setPos() {
         setButtonPos();
-        setTextPos();
     }
 
     @Override
     public void addAction() {
         addButtonAction();
-        addText();
     }
 
-
-    void createText(){
-        textField = new JTextField(20);
-    }
-
-    void setTextPos(){
-        textField.setFont(new Font("맑은 고딕", Font.BOLD, 24));
-        textField.setBounds(10,10,200,50);
-    }
-
-    void addText(){
-        add(textField);
-    }
 
 
     void createButton() {
@@ -79,11 +63,11 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             buttons[i].setBackground(backGround[i]);
         }
 
-        submit = new JButton("제출");
+        submit = new JButton("음성");
         submit.setFont(new Font("맑은 고딕", Font.BOLD, 24));
         submit.setBackground(getBrown());
         submit.setForeground(Color.white);
-        submit.setBounds(250, 10, 100, 50);
+        submit.setBounds(40, 10, 300, 50);
 
     }
 
@@ -123,9 +107,12 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new OrderMain(frame));
         }
         else if (e.getSource() == submit) {
-            // STT로 출력하던 alternative.getTranscript()를 리턴해서 해당 문자열로 초기화
-            // String str = 음성인식.onComplete();
-            String str = textField.getText();
+            JOptionPane.showMessageDialog(null, "확인 버튼을 누르고 메뉴 이름을 말씀해주세요",
+                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            QuickstartSampleSTT stt = new QuickstartSampleSTT();
+            JOptionPane.showMessageDialog(null, stt.getVoice(),
+                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            String str = stt.getVoice();
             int idx = data.getMenuList().findIdx(str);
             if(idx == -1){
                 JOptionPane.showMessageDialog(null, "해당 메뉴는 없습니다",
@@ -139,6 +126,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
                 od.getMenu(m);
                 changerPanel(new SetOption(frame));
             }
+
         }
         else {
             tts(m.getName());

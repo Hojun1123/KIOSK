@@ -1,3 +1,5 @@
+package Speak;
+
 import com.google.api.gax.rpc.ClientStream;
 import com.google.api.gax.rpc.ResponseObserver;
 import com.google.api.gax.rpc.StreamController;
@@ -13,7 +15,14 @@ import java.util.ArrayList;
 
 public class QuickstartSampleSTT {
 
-    public static void main(String[] args) {
+    String record;
+
+    public String getVoice() {
+        return record;
+    }
+
+    public QuickstartSampleSTT() {
+
         ResponseObserver<StreamingRecognizeResponse> responseObserver = null;
         try (SpeechClient client = SpeechClient.create()) {
 
@@ -28,13 +37,11 @@ public class QuickstartSampleSTT {
                 }
 
                 public void onComplete() {
-                    String record = "";
 
                     for (StreamingRecognizeResponse response : responses) {
                         StreamingRecognitionResult result = response.getResultsList().get(0);
                         SpeechRecognitionAlternative alternative = result.getAlternativesList().get(0);
-                        record += alternative.getTranscript();
-                        System.out.printf("Transcript : %s\n", alternative.getTranscript());
+                        record = alternative.getTranscript();
                     }
                 }
 
@@ -42,6 +49,7 @@ public class QuickstartSampleSTT {
                     System.out.println(t);
                 }
             };
+
 
             ClientStream<StreamingRecognizeRequest> clientStream = client.streamingRecognizeCallable()
                     .splitCall(responseObserver);
@@ -81,7 +89,7 @@ public class QuickstartSampleSTT {
                 long estimatedTime = System.currentTimeMillis() - startTime;
                 byte[] data = new byte[6400];
                 audio.read(data);
-                if (estimatedTime > 2000) { // 60 seconds 스트리밍 하는 시간설정(기본 60초)
+                if (estimatedTime > 4000) { // 60 seconds 스트리밍 하는 시간설정(기본 60초)
                     System.out.println("Stop speaking.");
                     targetDataLine.stop();
                     targetDataLine.close();
@@ -94,6 +102,8 @@ public class QuickstartSampleSTT {
             System.out.println(e);
         }
         responseObserver.onComplete(); //완료 이벤트 발생
+
     }
+
 
 }
