@@ -107,25 +107,35 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new OrderMain(frame));
         }
         else if (e.getSource() == submit) {
-            JOptionPane.showMessageDialog(null, "확인 버튼을 누르고 메뉴 이름을 말씀해주세요",
+            String text = "확인 버튼을 누르고 메뉴 이름을 말씀해주세요";
+            tts(text);
+            JOptionPane.showMessageDialog(null, text,
                     "Message", JOptionPane.INFORMATION_MESSAGE);
             QuickstartSampleSTT stt = new QuickstartSampleSTT();
-            JOptionPane.showMessageDialog(null, stt.getVoice(),
-                    "Message", JOptionPane.INFORMATION_MESSAGE);
             String str = stt.getVoice();
-            int idx = data.getMenuList().findIdx(str);
-            if(idx == -1){
-                JOptionPane.showMessageDialog(null, "해당 메뉴는 없습니다",
+            if(str == null){
+                JOptionPane.showMessageDialog(null, "음성 인식이 올바르지 않습니다",
                         "Message", JOptionPane.INFORMATION_MESSAGE);
                 changerPanel(new ChoiceMenu(frame, menuCode, listIdx));
             }
             else {
-                m = data.getMenuList().getList(idx);
-                tts(m.getName());
-                setMenuName(m);
-                od.getMenu(m);
-                changerPanel(new SetOption(frame));
+                JOptionPane.showMessageDialog(null, stt.getVoice(),
+                        "Message", JOptionPane.INFORMATION_MESSAGE);
+                int idx = data.getMenuList().findIdx(str);
+                if (idx == -1) {
+                    JOptionPane.showMessageDialog(null, "해당 메뉴는 없습니다",
+                            "Message", JOptionPane.INFORMATION_MESSAGE);
+                    changerPanel(new ChoiceMenu(frame, menuCode, listIdx));
+                }
+                else {
+                    m = data.getMenuList().getList(idx);
+                    tts(m.getName());
+                    setMenuName(m);
+                    od.getMenu(m);
+                    changerPanel(new SetOption(frame));
+                }
             }
+
 
         }
         else {

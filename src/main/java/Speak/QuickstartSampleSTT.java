@@ -75,7 +75,8 @@ public class QuickstartSampleSTT {
 
             if (!AudioSystem.isLineSupported(targetInfo)) {
                 System.out.println("Microphone not supported");
-                System.exit(0);
+                //System.exit(0);
+                return;
             }
             // Target data line captures the audio stream the microphone produces.
             TargetDataLine targetDataLine = (TargetDataLine) AudioSystem.getLine(targetInfo);
@@ -89,7 +90,7 @@ public class QuickstartSampleSTT {
                 long estimatedTime = System.currentTimeMillis() - startTime;
                 byte[] data = new byte[6400];
                 audio.read(data);
-                if (estimatedTime > 4000) { // 60 seconds 스트리밍 하는 시간설정(기본 60초)
+                if (estimatedTime > 3500) { // 60 seconds 스트리밍 하는 시간설정(기본 60초)
                     System.out.println("Stop speaking.");
                     targetDataLine.stop();
                     targetDataLine.close();
