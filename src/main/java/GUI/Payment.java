@@ -6,8 +6,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
-import static Console.OrderList.*;
-
 public class Payment extends SwingManager implements SwingManageable {
     String menuCode;
     JButton[] buttons = new JButton[3];
@@ -101,9 +99,15 @@ public class Payment extends SwingManager implements SwingManageable {
     public void actionPerformed(ActionEvent e) {
         //카드결제
         if (e.getSource() == buttons[0]) {
+            JOptionPane.showMessageDialog(null, "결제되었습니다",
+                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            changerPanel(new OrderMain(frame));
         }
         //현금결제
         else if (e.getSource() == buttons[1]) {
+            JOptionPane.showMessageDialog(null, "결제되었습니다",
+                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            changerPanel(new OrderMain(frame));
         }
         else{
             changerPanel(new OrderMain(frame));
