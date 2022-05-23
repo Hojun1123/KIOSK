@@ -22,25 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="일단 여기까지_end...">
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="작성 중">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/output.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Console/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Console/Manager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="tts_test" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,9 +81,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220516_0000&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kkkhh/IdeaProjects/jlayer-1.0.1.jar&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gksrl/Desktop/jlayer-1.0.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;라이브러리&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.39195403&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
@@ -129,9 +119,16 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
-        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\kkkhh\IdeaProjects\voisk.json" />
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\gksrl\Desktop\voisk-350315-03c8dcb22449.json" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="KIOSK" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Speak.QuickstartSampleSTT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Speak.QuickstartSampleSTT" />
       <module name="KIOSK" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +177,13 @@
     </configuration>
     <list>
       <item itemvalue="Maven.이름이 지정되지 않았습니다" />
+      <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
       <item itemvalue="애플리케이션.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Main" />
@@ -227,6 +226,24 @@
       <workItem from="1652689040279" duration="979000" />
       <workItem from="1652692427685" duration="2555000" />
       <workItem from="1652699101851" duration="1714000" />
+      <workItem from="1652951270215" duration="24000" />
+      <workItem from="1653107356294" duration="1992000" />
+      <workItem from="1653113004692" duration="686000" />
+      <workItem from="1653114081272" duration="1006000" />
+      <workItem from="1653115118662" duration="105000" />
+      <workItem from="1653115235376" duration="841000" />
+      <workItem from="1653116093262" duration="2366000" />
+      <workItem from="1653120031864" duration="452000" />
+      <workItem from="1653120571105" duration="5000" />
+      <workItem from="1653120687680" duration="156000" />
+      <workItem from="1653120862840" duration="788000" />
+      <workItem from="1653121763743" duration="2340000" />
+      <workItem from="1653125950324" duration="734000" />
+      <workItem from="1653126701647" duration="702000" />
+      <workItem from="1653209359926" duration="92000" />
+      <workItem from="1653209787444" duration="230000" />
+      <workItem from="1653280868714" duration="476000" />
+      <workItem from="1653283649395" duration="4857000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -326,7 +343,35 @@
       <option name="project" value="LOCAL" />
       <updated>1652700017731</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="작업중">
+      <created>1653122460054</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653122460054</updated>
+    </task>
+    <task id="LOCAL-00016" summary="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다">
+      <created>1653124117689</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653124117689</updated>
+    </task>
+    <task id="LOCAL-00017" summary="작성 중">
+      <created>1653127247481</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653127247481</updated>
+    </task>
+    <task id="LOCAL-00018" summary="작성 중">
+      <created>1653284488350</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1653284488350</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,7 +415,11 @@
     <MESSAGE value="음성MP3생성+재생" />
     <MESSAGE value="일단 여기까지..." />
     <MESSAGE value="일단 여기까지_end..." />
-    <option name="LAST_COMMIT_MESSAGE" value="일단 여기까지_end..." />
+    <MESSAGE value="작업중" />
+    <MESSAGE value="GUI/ChoiceMenu 클래스에 110라인 부분 참고바랍니당" />
+    <MESSAGE value="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다" />
+    <MESSAGE value="작성 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="작성 중" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

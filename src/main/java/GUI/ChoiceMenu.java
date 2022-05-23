@@ -1,16 +1,17 @@
 package GUI;
 
 import Console.Menu;
+import Speak.QuickstartSampleSTT;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.od;
+import static Speak.Converter.tts;
 
 public class ChoiceMenu extends SwingManager implements SwingManageable {
     JButton b = null;
-    JTextField textField = null;
     JButton submit = null;
     String menuCode;
     JButton[] buttons = new JButton[3];
@@ -32,33 +33,19 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
     @Override
     public void create() {
         createButton();
-        createText();
     }
 
     @Override
     public void setPos() {
         setButtonPos();
-        setTextPos();
     }
 
     @Override
     public void addAction() {
         addButtonAction();
-        addText();
     }
 
-    void createText(){
-        textField = new JTextField(20);
-    }
 
-    void setTextPos(){
-        textField.setFont(new Font("맑은 고딕", Font.BOLD, 24));
-        textField.setBounds(10,10,200,50);
-    }
-
-    void addText(){
-        add(textField);
-    }
 
     void createButton() {
         b = new JButton(m.memu());
@@ -76,11 +63,11 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             buttons[i].setBackground(backGround[i]);
         }
 
-        submit = new JButton("제출");
+        submit = new JButton("음성");
         submit.setFont(new Font("맑은 고딕", Font.BOLD, 24));
         submit.setBackground(getBrown());
         submit.setForeground(Color.white);
-        submit.setBounds(250, 10, 100, 50);
+        submit.setBounds(40, 10, 300, 50);
 
     }
 
@@ -118,24 +105,50 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new ChoiceMenu(frame, menuCode, listIdx + 1));
         } else if (e.getSource() == buttons[2]) {
             changerPanel(new OrderMain(frame));
-        } else if (e.getSource() == submit) {
-            String str = textField.getText();
-            int idx = data.getMenuList().findIdx(str);
-            if(idx == -1){
-                JOptionPane.showMessageDialog(null, "해당 메뉴는 없습니다",
+        }
+        else if (e.getSource() == submit) {
+            String text = "확인 버튼을 누르고 메뉴 이름을 말씀해주세요";
+            tts(text);
+            JOptionPane.showMessageDialog(null, text,
+                    "Message", JOptionPane.INFORMATION_MESSAGE);
+            QuickstartSampleSTT stt = new QuickstartSampleSTT();
+            String str = stt.getVoice();
+            if(str == null){
+                JOptionPane.showMessageDialog(null, "음성 인식이 올바르지 않습니다",
                         "Message", JOptionPane.INFORMATION_MESSAGE);
                 changerPanel(new ChoiceMenu(frame, menuCode, listIdx));
             }
             else {
-                m = data.getMenuList().getList(idx);
-                setMenuName(m);
-                od.getMenu(m);
-                changerPanel(new SetOption(frame));
+                JOptionPane.showMessageDialog(null, stt.getVoice(),
+                        "Message", JOptionPane.INFORMATION_MESSAGE);
+                int idx = data.getMenuList().findIdx(str);
+                if (idx == -1) {
+                    JOptionPane.showMessageDialog(null, "해당 메뉴는 없습니다",
+                            "Message", JOptionPane.INFORMATION_MESSAGE);
+                    changerPanel(new ChoiceMenu(frame, menuCode, listIdx));
+                }
+                else {
+                    m = data.getMenuList().getList(idx);
+                    tts(m.getName());
+                    setMenuName(m);
+                    od.getMenu(m);
+                    changerPanel(new SetOption(frame));
+                }
             }
-        } else {
+
+
+        }
+        else {
+            tts(m.getName());
             setMenuName(m);
             od.getMenu(m);
-            changerPanel(new SetOption(frame));
+            // 스무디 메뉴면 ICE로 고정시키고 바로 개수 항목으로 넘어가게
+            if (menuCode == "smoothie") {
+                od.getIce(true);
+                changerPanel(new ChoiceQuantity(frame));
+            } else {
+                changerPanel(new SetOption(frame));
+            }
         }
     }
 }

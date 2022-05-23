@@ -1,8 +1,7 @@
 package GUI;
 
-import Console.*;
+import Console.ClassControl;
 import Console.Menu;
-import Console.Order;
 
 import javax.swing.*;
 import java.awt.*;
@@ -31,6 +30,7 @@ public class SwingManager extends JPanel implements ActionListener {
         frame.revalidate();
         frame.repaint();
     }
+
 
     void setMenuName(Menu menu) {
         MenuInfo = menu;

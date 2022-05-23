@@ -4,7 +4,6 @@ package GUI;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-
 import static Speak.Converter.tts;
 
 public class OrderMain extends SwingManager implements SwingManageable {

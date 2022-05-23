@@ -1,3 +1,5 @@
+package Speak;
+
 import com.google.api.gax.rpc.ClientStream;
 import com.google.api.gax.rpc.ResponseObserver;
 import com.google.api.gax.rpc.StreamController;
@@ -13,7 +15,14 @@ import java.util.ArrayList;
 
 public class QuickstartSampleSTT {
 
-    public static void main(String[] args) {
+    String record;
+
+    public String getVoice() {
+        return record;
+    }
+
+    public QuickstartSampleSTT() {
+
         ResponseObserver<StreamingRecognizeResponse> responseObserver = null;
         try (SpeechClient client = SpeechClient.create()) {
 
@@ -28,13 +37,11 @@ public class QuickstartSampleSTT {
                 }
 
                 public void onComplete() {
-                    String record = "";
 
                     for (StreamingRecognizeResponse response : responses) {
                         StreamingRecognitionResult result = response.getResultsList().get(0);
                         SpeechRecognitionAlternative alternative = result.getAlternativesList().get(0);
-                        record += alternative.getTranscript();
-                        System.out.printf("Transcript : %s\n", alternative.getTranscript());
+                        record = alternative.getTranscript();
                     }
                 }
 
@@ -43,11 +50,12 @@ public class QuickstartSampleSTT {
                 }
             };
 
+
             ClientStream<StreamingRecognizeRequest> clientStream = client.streamingRecognizeCallable()
                     .splitCall(responseObserver);
 
             RecognitionConfig recognitionConfig = RecognitionConfig.newBuilder()
-                    .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16).setLanguageCode("ko-KR")// ÌïúÍµ≠Ïñ¥ ÏÑ§Ï†ï
+                    .setEncoding(RecognitionConfig.AudioEncoding.LINEAR16).setLanguageCode("ko-KR")// «—±πæÓ º≥¡§
                     .setSampleRateHertz(16000).build();
             StreamingRecognitionConfig streamingRecognitionConfig = StreamingRecognitionConfig.newBuilder()
                     .setConfig(recognitionConfig).build();
@@ -67,7 +75,8 @@ public class QuickstartSampleSTT {
 
             if (!AudioSystem.isLineSupported(targetInfo)) {
                 System.out.println("Microphone not supported");
-                System.exit(0);
+                //System.exit(0);
+                return;
             }
             // Target data line captures the audio stream the microphone produces.
             TargetDataLine targetDataLine = (TargetDataLine) AudioSystem.getLine(targetInfo);
@@ -81,7 +90,7 @@ public class QuickstartSampleSTT {
                 long estimatedTime = System.currentTimeMillis() - startTime;
                 byte[] data = new byte[6400];
                 audio.read(data);
-                if (estimatedTime > 2000) { // 60 seconds Ïä§Ìä∏Î¶¨Î∞ç ÌïòÎäî ÏãúÍ∞ÑÏÑ§Ï†ï(Í∏∞Î≥∏ 60Ï¥à)
+                if (estimatedTime > 3500) { // 60 seconds Ω∫∆Æ∏Æπ÷ «œ¥¬ Ω√∞£º≥¡§(±‚∫ª 60√ )
                     System.out.println("Stop speaking.");
                     targetDataLine.stop();
                     targetDataLine.close();
@@ -93,7 +102,9 @@ public class QuickstartSampleSTT {
         } catch (Exception e) {
             System.out.println(e);
         }
-        responseObserver.onComplete(); //ÏôÑÎ£å Ïù¥Î≤§Ìä∏ Î∞úÏÉù
+        responseObserver.onComplete(); //øœ∑· ¿Ã∫•∆Æ πﬂª˝
+
     }
+
 
 }

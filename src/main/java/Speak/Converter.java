@@ -3,14 +3,14 @@ package Speak;
 import static Speak.QuickstartSample.synthesizeText;
 
 public class Converter {
-    public static void tts(String str){
-        //mp3 ìƒì„± ê¸°ëŠ¥
+    public static void tts(String str) throws RuntimeException {
+        //mp3 »ı¼º ±â´É
         try {
             synthesizeText(str);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        //mp3 ì¬ìƒ ê¸°ëŠ¥
+        //mp3 Àç»ı ±â´É
         String filename = "output.mp3";
         MyMusicPlayer playMusic = new MyMusicPlayer(filename);
 		playMusic.play();

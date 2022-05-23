@@ -46,6 +46,7 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
             buttons[i].setBackground(colors[i]);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
         }
+
         tts(msg);
     }
 
