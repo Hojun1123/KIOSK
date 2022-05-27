@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.od;
+import static Speak.Converter.tts;
 
 public class SetOption extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[3];
@@ -15,6 +16,32 @@ public class SetOption extends SwingManager implements SwingManageable{
         create();
         setPos();
         addAction();
+        String[] kewards = {"핫","아이스","이전"};
+        String msg = "";
+        for (String a: kewards)
+            msg += a+",";
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        tts(msg);
+        thread = new Thread(){
+            public void run(){
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                buttons[voiceRecognition(kewards)].doClick();
+            }
+        };
+        thread.start();
     }
 
     @Override

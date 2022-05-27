@@ -17,6 +17,20 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
         create();
         setPos();
         addAction();
+
+        //새 스레드 생성성
+       thread = new Thread(){
+            public void run(){
+                try {
+                    Thread.sleep(3000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                String[] kewards = {"커피", "논 커피", "이전"};
+                buttons[voiceRecognition(kewards)].doClick();
+            }
+        };
+        thread.start();
     }
 
     @Override
@@ -46,7 +60,6 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
             buttons[i].setBackground(colors[i]);
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
         }
-
         tts(msg);
     }
 
