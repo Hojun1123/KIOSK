@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.od;
+import static Speak.Converter.tts;
 
 public class ChoiceQuantity extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[4];
@@ -18,6 +19,37 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         create();
         setPos();
         addAction();
+
+        String[] kewards = {"한잔", "두잔", "세잔", "네잔", "다섯잔", "여섯잔", "일곱잔", "여덟잔", "아홉잔", "열잔", "이전"};
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        tts("몇잔 주문하시겠습니까?");
+        thread = new Thread(){
+            public void run(){
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                int temp = voiceRecognition(kewards);
+                if(temp >= 0 && temp < 10) {
+                    quantity = temp+1;
+                    buttons[2].doClick();
+                }
+                else if(temp == 10)
+                    buttons[3].doClick();
+                    //이전
+            }
+        };
+        thread.start();
     }
 
     @Override

@@ -5,6 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 import static Console.OrderList.od;
+import static Speak.Converter.tts;
 
 public class SetOption3 extends SwingManager implements SwingManageable{
     JButton[] buttons = new JButton[3];
@@ -15,6 +16,30 @@ public class SetOption3 extends SwingManager implements SwingManageable{
         create();
         setPos();
         addAction();
+
+        String[] kewards = {"예","아니요","이전","시럽추가"};
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        tts("시럽을 추가하시겠습니까?");
+        thread = new Thread(){
+            public void run(){
+                try {
+                    Thread.sleep(2000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                buttons[voiceRecognition(kewards)].doClick();
+            }
+        };
+        thread.start();
     }
 
     @Override
@@ -33,7 +58,7 @@ public class SetOption3 extends SwingManager implements SwingManageable{
     }
 
     void createButton() {
-        String[] text = {"시럽 추가","<html>시럽 추가<br/><center>안함</center></html>","이전"};
+        String[] text = {"예(시럽 추가)","아니요","이전"};
         Color[] backGrounds = { getBrown(), getBlue(), getBrown()};
         int[] size = {36, 36, 24};
 

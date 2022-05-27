@@ -1,7 +1,6 @@
 package GUI;
 
 import Console.Menu;
-import Speak.QuickstartSampleSTT;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,6 +27,52 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
         create();
         setPos();
         addAction();
+/*
+        if(listIdx==0) {
+            //메뉴읽어주기
+            int length = data.getMenuList().getSize();
+            String[] kewards = new String[length];
+            for (int i = 0; i < length; i++) {
+                kewards[i] = data.getMenuList().getList(i).getName();   //kewards에 메뉴리스트저장
+                tts(kewards[i]);
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+            //메뉴음성인식
+            voiceRecognition(kewards);
+        }
+*/
+        thread = new Thread(){
+            public void run(){
+                try {
+                    Thread.sleep(1500);
+                } catch (InterruptedException e) {
+                    throw new RuntimeException(e);
+                }
+                if(listIdx==0) {
+                    //메뉴읽어주기
+                    int length = data.getMenuList().getSize();
+                    String[] kewards = new String[length];
+                    for (int i = 0; i < length; i++) {
+                        kewards[i] = data.getMenuList().getList(i).getName();   //kewards에 메뉴리스트저장
+                        tts(kewards[i]);
+                        try {
+                            Thread.sleep(1000);
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }
+                    //메뉴음성인식
+                    //int temp = voiceRecognition(kewards);
+                    m = data.getMenuList().getList(voiceRecognition(kewards));
+                    b.doClick();
+                }
+            }
+        };
+        thread.start();
     }
 
     @Override
@@ -91,7 +136,6 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
                 buttons[i].addActionListener(this);
             }
         }
-
         add(submit);
         submit.addActionListener(this);
     }
@@ -105,7 +149,7 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
             changerPanel(new ChoiceMenu(frame, menuCode, listIdx + 1));
         } else if (e.getSource() == buttons[2]) {
             changerPanel(new OrderMain(frame));
-        }
+        }/*
         else if (e.getSource() == submit) {
             String text = "확인 버튼을 누르고 메뉴 이름을 말씀해주세요";
             tts(text);
@@ -135,11 +179,9 @@ public class ChoiceMenu extends SwingManager implements SwingManageable {
                     changerPanel(new SetOption(frame));
                 }
             }
-
-
-        }
+        }*/
         else {
-            tts(m.getName());
+            //tts(m.getName());
             setMenuName(m);
             od.getMenu(m);
             // 스무디 메뉴면 ICE로 고정시키고 바로 개수 항목으로 넘어가게

@@ -4,19 +4,20 @@ import static Speak.QuickstartSample.synthesizeText;
 
 public class Converter {
     public static void tts(String str) throws RuntimeException {
-        //mp3 »ý¼º ±â´É
+        //mp3 ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         try {
             synthesizeText(str);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        //mp3 Àç»ý ±â´É
+        //mp3 ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
         String filename = "output.mp3";
         MyMusicPlayer playMusic = new MyMusicPlayer(filename);
 		playMusic.play();
     }
-
-    public void stt(){
-
+    public static void mic_start(){
+        String filename = "mic_start.mp3";
+        MyMusicPlayer playMusic = new MyMusicPlayer(filename);
+        playMusic.play();
     }
 }
