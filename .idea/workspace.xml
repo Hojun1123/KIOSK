@@ -22,30 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="병합 fin">
-      <change afterPath="$PROJECT_DIR$/mic_start.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/output.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SwingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Speak/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Speak/QuickstartSampleSTT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/QuickstartSampleSTT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Speak/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/Converter.class" afterDir="false" />
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="음성인식 05/27">
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +253,7 @@
       <workItem from="1653396427046" duration="23000" />
       <workItem from="1653565777809" duration="22390000" />
       <workItem from="1653623230940" duration="109000" />
-      <workItem from="1653623353581" duration="5393000" />
+      <workItem from="1653623353581" duration="6120000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -402,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653284488350</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="음성인식 05/27">
+      <created>1653643515049</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1653643515049</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +436,8 @@
     <MESSAGE value="GUI/ChoiceMenu 클래스에 110라인 부분 참고바랍니당" />
     <MESSAGE value="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다" />
     <MESSAGE value="작성 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="작성 중" />
+    <MESSAGE value="음성인식 05/27" />
+    <option name="LAST_COMMIT_MESSAGE" value="음성인식 05/27" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
