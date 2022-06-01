@@ -7,7 +7,8 @@ import java.awt.event.ActionEvent;
 import static Speak.Converter.tts;
 
 public class OrderMain extends SwingManager implements SwingManageable {
-    JButton b = new JButton("주문하기");
+    JButton[] buttons =  new JButton[2];
+
     JLabel[] labels = new JLabel[2];
     Color c = getBrown();
 
@@ -17,7 +18,8 @@ public class OrderMain extends SwingManager implements SwingManageable {
         setPos();
         addAction();
     }
-
+    @Override
+    public void makeSubmit () { }
     @Override
     public void create() {
         createButton();
@@ -36,9 +38,15 @@ public class OrderMain extends SwingManager implements SwingManageable {
     }
 
     void createButton() {
-        b.setBackground(c);
-        b.setForeground(Color.white);
-        b.setFont(new Font("맑은 고딕", Font.BOLD, 36));
+        String[] str = {"음성 주문", "선택 주문"};
+        for(int i=0;i<buttons.length;++i) {
+            buttons[i] = new JButton(str[i]);
+            buttons[i].setBackground(c);
+            buttons[i].setForeground(Color.white);
+            buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, 36));
+        }
+
+
 
     }
     void createLabel() {
@@ -52,7 +60,8 @@ public class OrderMain extends SwingManager implements SwingManageable {
     }
 
     void setButtonPos() {
-        b.setBounds(75, 200, 250, 100);
+        for (int i = 0; i < buttons.length; ++i)
+            buttons[i].setBounds(75, 200+(i*130), 250, 100);
     }
 
 
@@ -63,17 +72,20 @@ public class OrderMain extends SwingManager implements SwingManageable {
     }
 
     void addButtonAction() {
-        add(b);
-        for(JLabel l : labels)
+        for (JLabel l : labels)
             add(l);
-        b.addActionListener(this);
+        for (JButton b : buttons) {
+            add(b);
+            b.addActionListener(this);
+        }
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == b) {
-            changerPanel(new ChoiceCaffeine(frame));
-
-        }
+        if (e.getSource() == buttons[0])
+            setIsVoice(true);
+        else
+            setIsVoice(false);
+        changerPanel(new ChoiceCaffeine(frame));
     }
 }

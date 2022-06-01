@@ -22,9 +22,43 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="음성인식 05/27">
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-05-15__12_24_________Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2022-05-15__12_24_________Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KIOSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KIOSK.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/AddOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/AddOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceDrink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderConfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderConfirm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SwingManageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SwingManageable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SwingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Speak/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Speak/MyMusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/MyMusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/AddOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/AddOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManageable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManageable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Speak/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +78,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="음성기능구현ing" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +94,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="28QpDCWDogMSy1Av5K0rRdZPVjM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -68,30 +109,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ACTIVE_CLOUD_PROJECT_ACCOUNT&quot;: &quot;znxn1237@gmail.com&quot;,
-    &quot;ACTIVE_CLOUD_PROJECT_ID&quot;: &quot;voisk-350315&quot;,
-    &quot;ACTIVE_CLOUD_PROJECT_NAME&quot;: &quot;Voisk&quot;,
-    &quot;ACTIVE_CLOUD_PROJECT_NUMBER&quot;: &quot;655090732660&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.google.cloudcode.ide_session_index&quot;: &quot;20220516_0000&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gksrl/Desktop/jlayer-1.0.1.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gksrl/Desktop/Kiosk-master (2)&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;문제&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.39195403&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -105,29 +128,25 @@
     </key>
   </component>
   <component name="RunManager" selected="애플리케이션.Main">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="18" />
       <envs>
-        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\kkkhh\IdeaProjects\voisk_api.json" />
+        <env name="GOOGLE_APPLICATION_CREDENTIALS" value="C:\Users\gksrl\Desktop\voisk-350315-03c8dcb22449.json" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="KIOSK" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Speak.QuickstartSampleSTT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Speak.QuickstartSampleSTT" />
       <module name="KIOSK" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -182,15 +201,12 @@
     </configuration>
     <list>
       <item itemvalue="Maven.이름이 지정되지 않았습니다" />
-      <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
       <item itemvalue="애플리케이션.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Speak.QuickstartSampleSTT" />
         <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
@@ -254,6 +270,18 @@
       <workItem from="1653565777809" duration="22390000" />
       <workItem from="1653623230940" duration="109000" />
       <workItem from="1653623353581" duration="6120000" />
+      <workItem from="1653736774785" duration="848000" />
+      <workItem from="1653740404730" duration="318000" />
+      <workItem from="1653740736374" duration="90000" />
+      <workItem from="1653805162946" duration="5000" />
+      <workItem from="1653830576167" duration="833000" />
+      <workItem from="1653831486135" duration="479000" />
+      <workItem from="1653832442902" duration="15000" />
+      <workItem from="1653832477110" duration="32000" />
+      <workItem from="1653832714442" duration="625000" />
+      <workItem from="1653985895829" duration="13565000" />
+      <workItem from="1654011884126" duration="47000" />
+      <workItem from="1654011943122" duration="1470000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -437,7 +465,9 @@
     <MESSAGE value="GUI/ChoiceMenu 클래스에 126라인 참고바랍니다" />
     <MESSAGE value="작성 중" />
     <MESSAGE value="음성인식 05/27" />
-    <option name="LAST_COMMIT_MESSAGE" value="음성인식 05/27" />
+    <MESSAGE value="test" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

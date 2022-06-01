@@ -11,27 +11,40 @@ import static Speak.Converter.tts;
 public class ChoiceCaffeine extends SwingManager implements SwingManageable {
     JButton[] buttons = new JButton[3];
 
-
     public ChoiceCaffeine(JFrame f) {
         super(f);
         create();
         setPos();
         addAction();
 
-        //새 스레드 생성성
-       thread = new Thread(){
+        if(getIsVoice()) {
+            initSubmit();
+            setSubmit();
+            makeSubmit();
+        }
+
+    }
+
+
+    @Override
+    public void makeSubmit(){
+        thread = new Thread(){
             public void run(){
                 try {
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
+
                 String[] kewards = {"커피", "논 커피", "이전"};
                 buttons[voiceRecognition(kewards)].doClick();
+
             }
         };
         thread.start();
+
     }
+
 
     @Override
     public void create() {
@@ -61,20 +74,23 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
             buttons[i].setFont(new Font("맑은 고딕", Font.BOLD, size[i]));
         }
         tts(msg);
+
+
     }
 
     void setButtonPos() {
-        int[] size = {180,180,40};
+        int[] size = {150,150,40};
         for(int i=0;i < buttons.length;++i) {
-            buttons[i].setBounds(40, 50+(i*200), 300, size[i]);
+            buttons[i].setBounds(40, 100+(i*200), 300, size[i]);
         }
     }
 
     void addButtonAction() {
-        for(JButton b : buttons) {
+        for (JButton b : buttons) {
             add(b);
             b.addActionListener(this);
         }
+
     }
 
     @Override
@@ -85,7 +101,8 @@ public class ChoiceCaffeine extends SwingManager implements SwingManageable {
             changerPanel(new ChoiceMenu(frame, "coffee",0));
         } else if (e.getSource() == buttons[1]) {
             changerPanel(new ChoiceDrink(frame));
-        } else {
+        }
+        else {
             changerPanel(new OrderMain(frame));
         }
     }

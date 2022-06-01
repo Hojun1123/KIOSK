@@ -4,4 +4,6 @@ public interface SwingManageable {
     void create();
     void setPos();
     void addAction();
+
+    void makeSubmit();
 }

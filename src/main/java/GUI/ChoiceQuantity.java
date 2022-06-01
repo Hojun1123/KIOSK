@@ -18,8 +18,17 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         super(f);
         create();
         setPos();
+
         addAction();
 
+        if(getIsVoice()) {
+            setSubmit();
+            makeSubmit();
+        }
+    }
+
+    @Override
+    public void makeSubmit () {
         String[] kewards = {"한잔", "두잔", "세잔", "네잔", "다섯잔", "여섯잔", "일곱잔", "여덟잔", "아홉잔", "열잔", "이전"};
         try {
             Thread.sleep(3000);
@@ -27,8 +36,8 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
             throw new RuntimeException(e);
         }
         tts("몇잔 주문하시겠습니까?");
-        thread = new Thread(){
-            public void run(){
+        thread = new Thread() {
+            public void run() {
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
@@ -40,13 +49,12 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
                     throw new RuntimeException(e);
                 }
                 int temp = voiceRecognition(kewards);
-                if(temp >= 0 && temp < 10) {
-                    quantity = temp+1;
+                if (temp >= 0 && temp < 10) {
+                    quantity = temp + 1;
                     buttons[2].doClick();
-                }
-                else if(temp == 10)
+                } else if (temp == 10)
                     buttons[3].doClick();
-                    //이전
+                //이전
             }
         };
         thread.start();
@@ -95,7 +103,7 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
         add(label);
         for(JButton b : buttons) {
             add(b);
-            b.addActionListener(this);
+                b.addActionListener(this);
         }
     }
 
@@ -129,7 +137,7 @@ public class ChoiceQuantity extends SwingManager implements SwingManageable{
     }
 
     void createLabel() {
-        String text = quantity+"개";
+        String text = quantity+"잔";
         label = new JLabel(text, JLabel.CENTER);
         label.setBackground(getBrown());
         label.setForeground(Color.white);

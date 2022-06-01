@@ -20,7 +20,32 @@ public class SwingManager extends JPanel implements ActionListener {
     final Color brown = new Color(72,50,42);
     final Color blue = new Color(58,114,138);
     final Color vanilla = new Color(224,204,204);
+    private static boolean isVoice;
+    private static JButton submit= new JButton();
 
+
+
+    public void initSubmit(){
+        submit.setIcon(new ImageIcon("icon.png"));
+        submit.setBorderPainted(false);
+        submit.setContentAreaFilled(false);
+        submit.setFocusPainted(false);
+        submit.setOpaque(false);
+
+    }
+    public void setSubmit(){
+        submit.setBounds(150, 10, 80, 80);
+        add(submit);
+        submit.addActionListener(this);
+    }
+
+
+    public void ChangeSubmit(boolean isSpeak){
+        if(isSpeak)
+            submit.setIcon(new ImageIcon("icon2.png"));
+        else
+            submit.setIcon(new ImageIcon("icon.png"));
+    }
     public SwingManager(JFrame f) {
         frame = f;
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -36,6 +61,13 @@ public class SwingManager extends JPanel implements ActionListener {
         frame.repaint();
     }
 
+    public static boolean getIsVoice() {
+        return isVoice;
+    }
+
+    public static void setIsVoice(boolean isVoice) {
+        SwingManager.isVoice = isVoice;
+    }
 
     void setMenuName(Menu menu) {
         MenuInfo = menu;
@@ -61,15 +93,19 @@ public class SwingManager extends JPanel implements ActionListener {
 
     public int voiceRecognition(String[] kewards){
         for(int i=0;i<5;i++){
+            ChangeSubmit(true);
             int k = voiceCheck(kewards);
             if(k >= 0) {
                 tts(kewards[k]+"를 선택하셨습니다.");
+                ChangeSubmit(false);
                 return k;
             }
             else {
+                ChangeSubmit(false);
                 tts("다시한번 말씀해주세요.");
                 try {
                     Thread.sleep(2500);
+                    ChangeSubmit(true);
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }

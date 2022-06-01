@@ -22,6 +22,8 @@ public class Payment extends SwingManager implements SwingManageable {
     }
 
     @Override
+    public void makeSubmit () { }
+    @Override
     public void create() {
         createButton();
         createLabel();

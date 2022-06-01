@@ -1,8 +1,5 @@
 package GUI;
 
-import Console.Menu;
-import Console.OrderList;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -11,7 +8,7 @@ import static Console.OrderList.addOrderList;
 import static Console.OrderList.od;
 
 public class OrderConfirm extends SwingManager implements SwingManageable {
-    String menuCode;
+
     JButton[] buttons = new JButton[3];
     JLabel label;
 
@@ -22,6 +19,8 @@ public class OrderConfirm extends SwingManager implements SwingManageable {
         addAction();
     }
 
+    @Override
+    public void makeSubmit () { }
     @Override
     public void create() {
         createButton();

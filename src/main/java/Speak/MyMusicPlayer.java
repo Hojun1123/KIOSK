@@ -27,7 +27,9 @@ public class MyMusicPlayer {
         }
         new Thread(){
             public void run() {
-                try {player.play();}
+                try {
+                    player.play();
+                }
                 catch (Exception e) {
                     e.printStackTrace();
                 }

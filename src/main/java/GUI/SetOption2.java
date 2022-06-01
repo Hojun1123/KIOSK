@@ -14,17 +14,25 @@ public class SetOption2 extends SwingManager implements SwingManageable{
         super(f);
         create();
         setPos();
-        addAction();
 
-        String[] kewards = {"예","아니요","이전","샷추가"};
+            addAction();
+
+        if(getIsVoice()) {
+            setSubmit();
+            makeSubmit();
+        }
+    }
+    @Override
+    public void makeSubmit () {
+        String[] kewards = {"예", "아니요", "이전", "샷추가"};
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
         tts("샷 추가 하시겠습니까?");
-        thread = new Thread(){
-            public void run(){
+        thread = new Thread() {
+            public void run() {
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
@@ -35,12 +43,11 @@ public class SetOption2 extends SwingManager implements SwingManageable{
                 } catch (InterruptedException e) {
                     throw new RuntimeException(e);
                 }
-                buttons[voiceRecognition(kewards)%3].doClick();
+                buttons[voiceRecognition(kewards) % 3].doClick();
             }
         };
         thread.start();
     }
-
     @Override
     public void create() {
         createButton();
@@ -69,16 +76,16 @@ public class SetOption2 extends SwingManager implements SwingManageable{
     }
 
     void setButtonPos() {
-        for(int i=0;i <2;++i) {
-            buttons[i].setBounds(40, 50+(i*200), 300, 180);
+        int[] size = {150,150,40};
+        for(int i=0;i < buttons.length;++i) {
+            buttons[i].setBounds(40, 100+(i*200), 300, size[i]);
         }
-        buttons[2].setBounds(40, 450, 300, 40);
     }
 
     void addButtonAction() {
         for(JButton b : buttons) {
             add(b);
-            b.addActionListener(this);
+                b.addActionListener(this);
         }
     }
 

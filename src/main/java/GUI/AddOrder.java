@@ -15,7 +15,10 @@ public class AddOrder extends SwingManager implements SwingManageable {
         setPos();
         addAction();
     }
+    @Override
+    public void makeSubmit() {
 
+    }
     @Override
     public void create() {
         createButton();
