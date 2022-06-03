@@ -22,44 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment=".">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-05-15__12_24_________Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2022-05-15__12_24_________Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KIOSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KIOSK.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/AddOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/AddOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceCaffeine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/ChoiceQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderConfirm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderConfirm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/OrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SetOption3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SwingManageable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SwingManageable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUI/SwingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUI/SwingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Speak/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Speak/MyMusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Speak/MyMusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/AddOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/AddOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceCaffeine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceDrink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/ChoiceQuantity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderConfirm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/OrderMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SetOption3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManageable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManageable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUI/SwingManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Speak/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/Converter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Speak/MyMusicPlayer.class" afterDir="false" />
-    </list>
+    <list default="true" id="f50a800e-b87e-4098-b43d-347897377146" name="변경" comment="." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +77,10 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;라이브러리&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -282,6 +248,7 @@
       <workItem from="1653985895829" duration="13565000" />
       <workItem from="1654011884126" duration="47000" />
       <workItem from="1654011943122" duration="1470000" />
+      <workItem from="1654086080741" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="brunch_1 push">
       <created>1651164646365</created>
@@ -416,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653643515049</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary=".">
+      <created>1654086131299</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1654086131299</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
