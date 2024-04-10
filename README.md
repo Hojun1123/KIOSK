@@ -25,6 +25,7 @@ Google Cloud Speech API는 문자열과 음성 간의 변환을 지원하는 API
 ## Flow chart
 ![image](https://github.com/Hojun1123/KIOSK/assets/65999992/967b1922-98d6-46f7-9b87-8c29c3e2cd72)
 
+![image](https://github.com/Hojun1123/KIOSK/assets/65999992/065032c0-9325-4973-b5b7-b93d9bca8763)
 
 ## Figma prototype
 ![image](https://github.com/Hojun1123/KIOSK/assets/65999992/956bdabf-a6fb-42e3-891f-b8e9c6480305)
