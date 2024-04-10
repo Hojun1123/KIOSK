@@ -23,13 +23,17 @@ Google Cloud Speech API는 문자열과 음성 간의 변환을 지원하는 API
 음성을 텍스트로 변환하는 STT(Speech-To-Text)와 텍스트를 음성으로 변환하는 TTS(Text-To-Speech) 기능을 수행
 
 ## Flow chart
-![image](https://github.com/Hojun1123/KIOSK/assets/65999992/967b1922-98d6-46f7-9b87-8c29c3e2cd72)
-
 ![image](https://github.com/Hojun1123/KIOSK/assets/65999992/065032c0-9325-4973-b5b7-b93d9bca8763)
 
 ## Figma prototype
-![image](https://github.com/Hojun1123/KIOSK/assets/65999992/956bdabf-a6fb-42e3-891f-b8e9c6480305)
+![image](https://github.com/Hojun1123/KIOSK/assets/65999992/775053c2-703d-41ec-83fe-ad071376542d)
+
 
 ## 구현
 2학년 Java 수업 시간에 배웠던 Swing(JDK에서 GUI개발을 위해 기본적으로 제공하는 개발 툴킷)을 통해 키오스크 시스템의 전반적인 GUI를 개발하였다.
 STT, TTS 기능을 위하여 JLayer 라이브러리와 Google Cloud Speech API를 사용하였다.
+
+## 결과
+### 안내 메시지 -> 마이크 점등 후 음성 녹음 -> 해당 명령 수행(STT) -> 처리 결과에 대한 메시지(TTS, ex. ~~ 를 선택하셨습니다.) / 페이지 전환
+![image](https://github.com/Hojun1123/KIOSK/assets/65999992/becb4c2a-2a8f-4b4e-add9-32272a4dd057)
+
